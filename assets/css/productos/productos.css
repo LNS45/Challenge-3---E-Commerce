@@ -1,0 +1,8 @@
+.productos{
+    background-color: var(--gris-rosado);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+.producto__imagen{
+    margin: 12px 0;
+    width: 200px;
+    height: 200px;
+    background-color: var(--gris);
+    border-radius: 10px;
+}

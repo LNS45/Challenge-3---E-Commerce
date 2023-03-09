@@ -1,0 +1,9 @@
+.producto__contenedor{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 320px;
+    background-color: var(--blanco);
+    border-radius: 20px;
+    padding: 0 15px;
+}

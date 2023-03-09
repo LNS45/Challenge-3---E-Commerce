@@ -1,0 +1,6 @@
+.producto__categoria{
+    color: var(--fuente-oscura);
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}

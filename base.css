@@ -8,10 +8,13 @@
     --fuente-resaltada: background: rgba(60, 162, 162, 1);
     --fuente-oscura: #000000;
     --fuente-cafe:#644424;
+    --fuente-azul: #3CA2A2;
     
     /*Fondos*/
     --cafe-oscuro: #644424;
     --gris-rosado: #E2D9DB;
+    --blanco: #FFFFFF;
+    --gris: #d9d9d9;
 
     /*Sombras de Texto*/
     --texto-sombreado: 2px 2px 3px rgba(0, 0, 0, 5);

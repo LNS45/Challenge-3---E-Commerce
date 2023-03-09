@@ -1,0 +1,5 @@
+.producto__descripcion{
+    text-decoration: none;
+    color: var(--fuente-azul);
+    font-weight: 700;
+}
