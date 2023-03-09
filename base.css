@@ -1,0 +1,25 @@
+/*CSS Raiz*/
+:root{
+
+    /*Fuentes*/
+    --raleway: 'Raleway', sans-serif;
+    /*Colores de Fuentes*/
+    --fuente-clara: #FFFFFF;
+    --fuente-resaltada: background: rgba(60, 162, 162, 1);
+    --fuente-oscura: #000000;
+    --fuente-cafe:#644424;
+    
+    /*Fondos*/
+    --cafe-oscuro: #644424;
+    --gris-rosado: #E2D9DB;
+
+    /*Sombras de Texto*/
+    --texto-sombreado: text-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.8);
+
+    /*Sombras de Contenedores*/
+    
+}
+
+body{
+    font-family: var(--raleway);
+}

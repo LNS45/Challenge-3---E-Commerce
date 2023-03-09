@@ -1,6 +1,5 @@
-.barra__grupo{
-    width: 500px;
-    position: relative;
+.barra__contenedor{
+    width: 58.75rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

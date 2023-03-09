@@ -1,16 +1,12 @@
 .barra__input{
-    width: 370px;
-    height: 35px;
+    width: 23.125rem;
+    height: 2.1875rem;
     background-color: #E2D9DB;
     outline: none;
     border: none;
-    border-radius: 20px;
-    margin-left: 30px;
-    font-size: 16px;
-    padding-left: 30px;
-}
-.barra__input~label{
-    position: absolute;
-    left: 38px;
-    top: 9px;
+    border-radius: 1.25rem;
+    font-size: 1rem;
+    padding-left: 1.875rem;
+    padding-right: .9375rem;
+    position: relative;
 }

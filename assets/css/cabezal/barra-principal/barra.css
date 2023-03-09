@@ -1,9 +1,8 @@
 .barra{
     width: auto;
-    height: 100px;
+    height: 6.25rem;
     display: flex;
     align-items: center;
     background: #644424;
-    justify-content: space-between;
-    padding: 0 200px;
+    justify-content: center;
 }
