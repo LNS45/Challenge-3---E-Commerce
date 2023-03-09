@@ -1,0 +1,16 @@
+.barra__input{
+    width: 370px;
+    height: 35px;
+    background-color: #E2D9DB;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+    padding-left: 30px;
+}
+.barra__input~label{
+    position: absolute;
+    left: 38px;
+    top: 9px;
+}

@@ -4,14 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/9b1e0bc695.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/assets/css/fontawesome-free-6.3.0-web/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-grupo.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-logo.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-buscador.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-input.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-link.css">
     <title>Gibstar Shop</title>
 </head>
 <body>
     <header class="cabezal">
-        <section class="barra-principal">
-            <input type="text" class="barra-principal__input">
-            <a href="" class="barra-principal__user-link"></a>
+        <section class="barra">
+            <div class="barra__grupo">
+                <img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo">
+                <div class="barra__buscador">
+                    <input type="search" class="barra__input" name="search" placeholder="Que deseas buscar?">
+                    <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+                </div>
+            </div>
+            <div>
+                <a href="#" class="barra__link">Iniciar Sesión</a>
+            </div>
         </section>
     </header>
 </body>
