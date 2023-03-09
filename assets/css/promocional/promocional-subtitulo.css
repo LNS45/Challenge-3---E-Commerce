@@ -1,0 +1,10 @@
+.promocional__subtitulo{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+    font-family: Rasa;
+    font-weight: 700;
+    font-size: 40px;
+    color: var(--fuente-clara);
+    text-shadow: var(--texto-sombreado);
+}
