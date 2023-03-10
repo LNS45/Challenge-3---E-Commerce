@@ -1,0 +1,5 @@
+.contacto__contenedor{
+    width: 58.75rem;
+    display: flex;
+    justify-content: space-between;
+}

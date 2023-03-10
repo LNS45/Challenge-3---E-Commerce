@@ -1,0 +1,28 @@
+.contacto__input{
+    background-color: var(--gris-rosado);
+    outline: none;
+    border: none;
+    border-radius: .625rem;
+    width: 18.75rem;
+    height: 2.5rem;
+    padding: 0 10px;
+    margin-top: 35px;
+    font-size: 15px;
+    
+}
+.contacto__input~label{
+    position: absolute;
+    left: 8px;
+    top: 48px;
+    transition: .5s ease-in-out ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.contacto__input:focus~label{
+    position: absolute;
+    left: 8px;
+    top: 18px;
+}
+.contacto__input:valid~label{
+    color: #0EC6A4;
+}

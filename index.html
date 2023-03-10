@@ -31,6 +31,19 @@
     <link rel="stylesheet" href="/assets/css/productos/producto-nombre.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-precio.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-descripcion.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-grupo.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-lista.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-logo.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-social.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-redesLogo.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-cuenta.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-titulo.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-input.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-mensaje.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-boton.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-campos.css">
     <title>Gibstar Shop</title>
 </head>
 <body>
@@ -75,6 +88,54 @@
                         <a href="#" class="producto__descripcion">Ver producto</a>
                     </li>
                 </ul>
+            </div>
+            <div class="productos__contenedor">
+                <a href="#" class="producto__categoria">Categoria</a>
+                <ul class="producto__lista">
+                    <li class="producto__contenedor">
+                        <div class="producto__imagen"></div>
+                        <span class="producto__nombre">Producto XYZ</span>
+                        <span class="producto__precio">$100.00</span>
+                        <a href="#" class="producto__descripcion">Ver producto</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contacto">
+            <div class="contacto__contenedor">
+                <div class="contacto__grupo">
+                    <img src="/assets/icons/logo-black-letras.png" alt="" class="contacto__logo">
+                    <ul class="contacto__lista">
+                        <li class="contacto__social">
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-twitter fa-3x"></i></span>
+                            <span class="contacto__cuenta">@GibStar</span>
+                        </li>
+                        <li class="contacto__social">
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-instagram fa-3x"></i></span>
+                            <span class="contacto__cuenta">@GibStar</span>
+                        </li>
+                        <li class="contacto__social">
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-facebook fa-3x"></i></span>
+                            <span class="contacto__cuenta">@Gibstar</span>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contacto__grupo">
+                    <span class="contacto__titulo">Contáctanos</span>
+                    <div class="contacto__campos">
+                        <input type="text" class="contacto__input" name="name" required>
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="contacto__campos">
+                        <input type="email" class="contacto__input" name="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="contacto__campos">
+                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <button class="contacto__boton" type="submit">Enviar mensaje</button>
+                </form>
             </div>
         </section>
     </main>
