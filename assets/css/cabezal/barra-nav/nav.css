@@ -1,5 +1,6 @@
 .nav{
     display: flex;
+    margin-top: 80px;
     width: auto;
     height: 3.25rem;
     background-color: var(--gris-rosado);

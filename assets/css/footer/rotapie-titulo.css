@@ -1,3 +1,4 @@
 .rotapie__titulo{
     color: var(--fuente-clara);
+    text-shadow: var(--texto-sombreado);
 }

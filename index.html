@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/fontawesome-free-6.3.0-web/css/all.css" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/reset.css">
     <link rel="stylesheet" href="/base.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra.css">
@@ -46,6 +45,7 @@
     <link rel="stylesheet" href="/assets/css/contacto/contacto-campos.css">
     <link rel="stylesheet" href="/assets/css/footer/rotapie.css">
     <link rel="stylesheet" href="/assets/css/footer/rotapie-titulo.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-invalid.css">
     <title>Gibstar Shop</title>
 </head>
 <body>
@@ -125,16 +125,19 @@
                 <form class="contacto__grupo">
                     <span class="contacto__titulo">Contáctanos</span>
                     <div class="contacto__campos">
-                        <input type="text" class="contacto__input" name="name" required>
+                        <input type="text" class="contacto__input" name="name" required data-input="nombre">
                         <label for="name">Nombre</label>
+                        <span class="contacto__invalid">Error</span>
                     </div>
                     <div class="contacto__campos">
-                        <input type="email" class="contacto__input" name="email" required>
-                        <label for="email">Email</label>
+                        <input type="email" class="contacto__input" name="email" required data-input="email">
+                        <label for="email" class="label-error">Email</label>
+                        <span class="contacto__invalid ">Error</span>
                     </div>
                     <div class="contacto__campos">
-                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required></textarea>
+                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required data-input="mensaje"></textarea>
                         <label for="mensaje">Mensaje</label>
+                        <span class="contacto__invalid-mensaje">Error</span>
                     </div>
                     <button class="contacto__boton" type="submit">Enviar mensaje</button>
                 </form>
@@ -142,7 +145,8 @@
         </section>
     </main>
     <footer class="rotapie">
-        <h2 class="rotapie__titulo">&copy Desarrollador por Lorenzo Chavez</h2>
+        <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez</h2>
     </footer>
+    <script src="/js/index-controller.js"></script>
 </body>
 </html>

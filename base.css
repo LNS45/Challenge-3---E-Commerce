@@ -15,9 +15,11 @@
     --gris-rosado: #E2D9DB;
     --blanco: #FFFFFF;
     --gris: #d9d9d9;
+    --cafe-vino: #5C3D43;
 
     /*Sombras de Texto*/
     --texto-sombreado: 2px 2px 3px rgba(0, 0, 0, 5);
+    --texto-sombreado-light: 0px 1px 1px rgba(0, 0, 0, 2);
 
     /*Sombras de Contenedores*/
     

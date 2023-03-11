@@ -3,4 +3,5 @@
     color: var(--fuente-cafe);
     font-weight: 700;
     font-size: 1.25rem;
+    text-shadow: var(--texto-sombreado-light);
 }
