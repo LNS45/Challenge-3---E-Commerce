@@ -1,0 +1,12 @@
+{
+    "productos":[
+        {
+            "id": "121",
+            "nombre": "XYZ",
+            "precio": "$200",
+            "descripcion": "Guitarra electrica",
+            "categoria": "Guitarras",
+            "imagen": ""
+        }
+    ]
+}

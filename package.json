@@ -1,0 +1,9 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "E-commerce GibStar",
+  "main": "index.js",
+  "dependencies": {
+    "json-server": "^0.17.2"
+  }
+}
