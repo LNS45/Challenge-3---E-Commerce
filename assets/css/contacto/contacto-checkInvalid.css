@@ -1,0 +1,10 @@
+.contacto__checkInvalid{
+    position: absolute;
+    left: 324px;
+    top: 56px;
+    color: red;
+    visibility: hidden;
+}
+.contacto__checkInvalid--active{
+    visibility: visible;
+}

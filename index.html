@@ -39,8 +39,11 @@
     <link rel="stylesheet" href="/assets/css/contacto/contacto-social.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-redesLogo.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-cuenta.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-formulario.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-titulo.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-input.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-checkValid.css">
+    <link rel="stylesheet" href="/assets/css/contacto/contacto-checkInvalid.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-mensaje.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-boton.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-campos.css">
@@ -107,7 +110,7 @@
         <section class="contacto">
             <div class="contacto__contenedor">
                 <div class="contacto__grupo">
-                    <img src="/assets/icons/logo-black-letras.png" alt="" class="contacto__logo">
+                    <img src="/assets/icons/logo-black-letras.png" alt="Logo de la empresa" class="contacto__logo">
                     <ul class="contacto__lista">
                         <li class="contacto__social">
                             <span class="contacto__redesLogo"><i class="fa-brands fa-twitter fa-3x"></i></span>
@@ -123,21 +126,27 @@
                         </li>
                     </ul>
                 </div>
-                <form class="contacto__grupo">
+                <form class="contacto__grupo contacto__formulario">
                     <span class="contacto__titulo">Contáctanos</span>
                     <div class="contacto__campos">
                         <input type="text" class="contacto__input" name="name" required data-input="nombre">
                         <label for="name">Nombre</label>
+                        <i class="fas fa-check-circle contacto__checkValid"></i>
+                        <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
                         <span class="contacto__invalid">Error</span>
                     </div>
                     <div class="contacto__campos">
                         <input type="email" class="contacto__input" name="email" required data-input="email">
                         <label for="email" class="label-error">Email</label>
+                        <i class="fas fa-check-circle contacto__checkValid"></i>
+                        <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
                         <span class="contacto__invalid ">Error</span>
                     </div>
                     <div class="contacto__campos">
                         <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required data-input="mensaje"></textarea>
                         <label for="mensaje">Mensaje</label>
+                        <i class="fas fa-check-circle contacto__checkValid"></i>
+                        <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
                         <span class="contacto__invalid-mensaje">Error</span>
                     </div>
                     <button class="contacto__boton" type="submit">Enviar mensaje</button>

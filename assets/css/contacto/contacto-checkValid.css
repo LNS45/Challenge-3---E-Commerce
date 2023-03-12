@@ -1,0 +1,11 @@
+.contacto__checkValid{
+    position: absolute;
+    left: 324px;
+    top: 56px;
+    color: rgb(3, 190, 109);
+    visibility: hidden;
+}
+
+.contacto__checkValid--active{
+    visibility: visible;
+}

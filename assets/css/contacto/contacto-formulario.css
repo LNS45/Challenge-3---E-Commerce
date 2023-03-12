@@ -1,0 +1,7 @@
+.contacto__formulario{
+    border: 5px solid var(--gris-rosado);
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 550px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,8 +1,8 @@
 .contacto__mensaje{
-    background-color: var(--gris-rosado);
     outline: none;
     border: none;
-    border-radius: .625rem;
+    font-family: var(--raleway);
+    border-bottom: 2px solid var(--gris-rosado);
     width: 18.75rem;
     height: 150px;
     padding: 10px 10px;
