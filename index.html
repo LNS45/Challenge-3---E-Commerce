@@ -129,7 +129,7 @@
                 <form class="contacto__grupo contacto__formulario">
                     <span class="contacto__titulo">Contáctanos</span>
                     <div class="contacto__campos">
-                        <input type="text" class="contacto__input" name="name" required data-input="nombre" placeholder="Nombre">
+                        <input type="text" class="contacto__input" name="name" required data-input="nombre" placeholder="Nombre" maxlength="40">
                         <label for="name">Nombre</label>
                         <i class="fas fa-check-circle contacto__checkValid"></i>
                         <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
@@ -143,7 +143,7 @@
                         <span class="contacto__invalid ">Error</span>
                     </div>
                     <div class="contacto__campos">
-                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required data-input="mensaje"></textarea>
+                        <textarea name="mensaje" id="" cols="30" rows="10" class="contacto__mensaje" required data-input="mensaje" maxlength="120"></textarea>
                         <label for="mensaje">Mensaje</label>
                         <i class="fas fa-check-circle contacto__checkValid"></i>
                         <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
@@ -155,7 +155,7 @@
         </section>
     </main>
     <footer class="rotapie">
-        <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez</h2>
+        <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez - 2023</h2>
     </footer>
     <script src="/js/index-controller.js"></script>
 </body>
