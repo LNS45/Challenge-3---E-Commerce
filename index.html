@@ -113,15 +113,15 @@
                     <img src="/assets/icons/logo-black-letras.png" alt="Logo de la empresa" class="contacto__logo">
                     <ul class="contacto__lista">
                         <li class="contacto__social">
-                            <span class="contacto__redesLogo"><i class="fa-brands fa-twitter fa-3x"></i></span>
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-twitter fa-3x" id="logo-twitter"></i></span>
                             <span class="contacto__cuenta">@GibStar</span>
                         </li>
                         <li class="contacto__social">
-                            <span class="contacto__redesLogo"><i class="fa-brands fa-instagram fa-3x"></i></span>
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-instagram fa-3x" id="logo-instagram"></i></span>
                             <span class="contacto__cuenta">@GibStar</span>
                         </li>
                         <li class="contacto__social">
-                            <span class="contacto__redesLogo"><i class="fa-brands fa-facebook fa-3x"></i></span>
+                            <span class="contacto__redesLogo"><i class="fa-brands fa-facebook fa-3x" id="logo-facebook"></i></span>
                             <span class="contacto__cuenta">@Gibstar</span>
                         </li>
                     </ul>
@@ -129,14 +129,14 @@
                 <form class="contacto__grupo contacto__formulario">
                     <span class="contacto__titulo">Contáctanos</span>
                     <div class="contacto__campos">
-                        <input type="text" class="contacto__input" name="name" required data-input="nombre">
+                        <input type="text" class="contacto__input" name="name" required data-input="nombre" placeholder="Nombre">
                         <label for="name">Nombre</label>
                         <i class="fas fa-check-circle contacto__checkValid"></i>
                         <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>
                         <span class="contacto__invalid">Error</span>
                     </div>
                     <div class="contacto__campos">
-                        <input type="email" class="contacto__input" name="email" required data-input="email">
+                        <input type="email" class="contacto__input" name="email" required data-input="email" placeholder="example@example.com" pattern="^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$">
                         <label for="email" class="label-error">Email</label>
                         <i class="fas fa-check-circle contacto__checkValid"></i>
                         <i class="fas fa-exclamation-circle contacto__checkInvalid"></i>

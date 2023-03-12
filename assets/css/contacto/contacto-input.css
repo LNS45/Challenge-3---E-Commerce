@@ -26,3 +26,6 @@
     left: 8px;
     top: 30px;
 }
+.contacto__input::placeholder{
+    font-size: 12px;
+}
