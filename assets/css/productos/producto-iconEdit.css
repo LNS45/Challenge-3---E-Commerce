@@ -1,0 +1,10 @@
+.producto__iconEdit{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.producto__iconEdit:hover{
+    color: var(--fuente-azul);
+}

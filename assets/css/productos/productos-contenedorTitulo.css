@@ -1,0 +1,8 @@
+.productos__contenedorTitulo{
+    margin-top: 7.5rem;
+    display: flex;
+    width: 58.75rem;
+    justify-content: space-between;
+    border-bottom: 2px groove var(--gris);
+
+}

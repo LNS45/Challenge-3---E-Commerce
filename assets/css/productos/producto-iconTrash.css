@@ -1,0 +1,10 @@
+.producto__iconTrash{
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.producto__iconTrash:hover{
+    color: rgb(213, 4, 4);
+}
