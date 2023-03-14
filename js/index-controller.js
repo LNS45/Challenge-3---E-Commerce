@@ -1,7 +1,7 @@
+//Validacion del Formulario de contacto
 const $input = document.querySelectorAll("[data-input]");
 
 $input.forEach(element => {
-    console.log(element)
     element.addEventListener('blur', element => {
         element.preventDefault();
         const hijo = element.target;

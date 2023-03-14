@@ -1,12 +1,142 @@
 {
     "productos":[
-        {
-            "id": "121",
-            "nombre": "XYZ",
-            "precio": "$200",
-            "descripcion": "Guitarra electrica",
-            "categoria": "Guitarras",
-            "imagen": ""
-        }
-    ]
+        {  
+        "Guitarras":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "guitarra",
+                "imagen": ""
+            },
+            {
+                "id": "132",
+                "nombre": "Guitarra Electrica",
+                "precio": "$19000",
+                "descripcion": "Guitarra Electrica",
+                "categoria": "guitarra",
+                "imagen": ""
+            }
+        ]},
+        {"Bajos":[
+            {
+                "id": "1901",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "bajo",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "bajo",
+                "imagen": ""
+            }
+        ]},
+        {"Pedales":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "pedal",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "pedal",
+                "imagen": ""
+            }
+        ]},
+        {"Púas":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "pua",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "pua",
+                "imagen": ""
+            }
+        ]},
+        {"Accesorios":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "accesorio",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "accesorio",
+                "imagen": ""
+            }
+        ]},
+        {"Amplificadores":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "amplificador",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "amplificador",
+                "imagen": ""
+            }
+        ]},
+        {"Cuerdas":[
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "cuerdas",
+                "imagen": ""
+            },
+            {
+                "id": "121",
+                "nombre": "Guitarra 12 Cuerdas",
+                "precio": "$200",
+                "descripcion": "Guitarra acustica",
+                "categoria": "cuerdas",
+                "imagen": ""
+            }
+        ]}
+    ],
+    "categorias": [{
+        "lista":[
+            "Guitarras",
+            "Bajos",
+            "Pedales",
+            "Púas",
+            "Amplificadores",
+            "Accesorios",
+            "Cuerdas"
+        ]
+    }]
 }
