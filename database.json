@@ -22,7 +22,7 @@
         {"Bajos":[
             {
                 "id": "1901",
-                "nombre": "Guitarra 12 Cuerdas",
+                "nombre": "Bajo 5 Cuerdas",
                 "precio": "$200",
                 "descripcion": "Guitarra acustica",
                 "categoria": "bajo",
