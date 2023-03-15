@@ -5,8 +5,24 @@
             {
                 "id": "121",
                 "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "precio": "$24000",
                 "descripcion": "Guitarra acustica",
+                "categoria": "guitarra",
+                "imagen": ""
+            },
+            {
+                "id": "132",
+                "nombre": "Guitarra Electrica",
+                "precio": "$19000",
+                "descripcion": "Guitarra Electrica",
+                "categoria": "guitarra",
+                "imagen": ""
+            },
+            {
+                "id": "132",
+                "nombre": "Guitarra Electrica",
+                "precio": "$19000",
+                "descripcion": "Guitarra Electrica",
                 "categoria": "guitarra",
                 "imagen": ""
             },
@@ -23,15 +39,15 @@
             {
                 "id": "1901",
                 "nombre": "Bajo 5 Cuerdas",
-                "precio": "$200",
+                "precio": "$10000",
                 "descripcion": "Guitarra acustica",
                 "categoria": "bajo",
                 "imagen": ""
             },
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Bajo 4 Cuerdas",
+                "precio": "$20900",
                 "descripcion": "Guitarra acustica",
                 "categoria": "bajo",
                 "imagen": ""
@@ -40,16 +56,16 @@
         {"Pedales":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Pedal Chorus",
+                "precio": "$900",
                 "descripcion": "Guitarra acustica",
                 "categoria": "pedal",
                 "imagen": ""
             },
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Pedal Distortion",
+                "precio": "$1900",
                 "descripcion": "Guitarra acustica",
                 "categoria": "pedal",
                 "imagen": ""
@@ -58,16 +74,16 @@
         {"Púas":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Paquete de puas | 24 piezas",
+                "precio": "$500",
                 "descripcion": "Guitarra acustica",
                 "categoria": "pua",
                 "imagen": ""
             },
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Pua con diseno",
+                "precio": "$90",
                 "descripcion": "Guitarra acustica",
                 "categoria": "pua",
                 "imagen": ""
@@ -76,17 +92,17 @@
         {"Accesorios":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Afinador electronico",
+                "precio": "$1500",
                 "descripcion": "Guitarra acustica",
                 "categoria": "accesorio",
                 "imagen": ""
             },
             {
-                "id": "121",
+                "id": "Correa estilo soldado",
                 "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
-                "descripcion": "Guitarra acustica",
+                "precio": "$900",
+                "descripcio": "Guitarra acustica",
                 "categoria": "accesorio",
                 "imagen": ""
             }
@@ -94,16 +110,16 @@
         {"Amplificadores":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Amplificador",
+                "precio": "$12000",
                 "descripcion": "Guitarra acustica",
                 "categoria": "amplificador",
                 "imagen": ""
             },
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Amp Marshall",
+                "precio": "$9000",
                 "descripcion": "Guitarra acustica",
                 "categoria": "amplificador",
                 "imagen": ""
@@ -112,16 +128,16 @@
         {"Cuerdas":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Cuerdas para bajo",
+                "precio": "$800",
                 "descripcion": "Guitarra acustica",
                 "categoria": "cuerdas",
                 "imagen": ""
             },
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$200",
+                "nombre": "Paquete de 12 Cuerdas",
+                "precio": "$1000",
                 "descripcion": "Guitarra acustica",
                 "categoria": "cuerdas",
                 "imagen": ""
@@ -134,8 +150,8 @@
             "Bajos",
             "Pedales",
             "Púas",
-            "Amplificadores",
             "Accesorios",
+            "Amplificadores",
             "Cuerdas"
         ]
     }]

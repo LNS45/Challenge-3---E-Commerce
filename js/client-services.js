@@ -21,10 +21,11 @@ fetch(`${URL}/categorias`)
 function categorizar(lista){
     const crearDiv = document.createElement("div");
     crearDiv.classList.add("productos__contenedor");
-    crearDiv.setAttribute(`data-${lista}`, "");
+    crearDiv.setAttribute(`data-type`, `${lista}`);
     const contenido = 
         `<a href="#" class="producto__categoria">${lista}</a>
-        <a href="#" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>`
+        <a href="#" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
+        <ul class="producto__lista"></ul>`
     crearDiv.innerHTML = contenido;
     return crearDiv;
 }
@@ -33,21 +34,30 @@ function categorizar(lista){
 fetch(`${URL}/productos`)
     .then((response) => response.json())
     .then((productos) =>{
-
-        for(let i = 0; i < listadoCategorias[0].lista.length; i++) {
-            let tipo = listadoCategorias[0].lista[i];
-            productos.forEach((producto) => {
-                if(producto){
-
-                }
-
-                console.log(producto[tipo])
-            mostrarProductos();
-            });
-
-        }
-
+let indice = 0;
+let contenedores = document.querySelectorAll("[data-type]");
+console.log(contenedores)
+        productos.forEach(producto => {
+                let tipo = recorrerCategorias(indice)
+                indice+=1;
+                for(let i = 0;i <= producto[tipo].length - 1; i++){
+                    const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio);
+                    contenedores.forEach(contenedor => {
+                        if(tipo == contenedor.dataset.type){
+                            const ul = contenedor.querySelector(".producto__lista");
+                            ul.appendChild(listarProducto);
+                        };
+                    });
+                };
+        });
+    }).catch((error) => {
+        console.log("Ha ocurrido un error: " + error)
     })
+
+function recorrerCategorias(i){
+    let tipo = listadoCategorias[0].lista[i];
+    return tipo;
+}
 
 
 function mostrarProductos(nombre, precio){
@@ -61,12 +71,3 @@ function mostrarProductos(nombre, precio){
         Contenedor.innerHTML = contenido;
         return Contenedor;
 };
-
-
-/*        for(let i = 0; i < listadoCategorias[0].lista.length; i++) {
-            let tipo = listadoCategorias[0].lista[i];
-            console.log(tipo)
-            for(let a = 0; a < producto.tipo.length; a++ ){
-                console.log(producto.tipo[a]);
-            }
-        }*/ 
