@@ -1,0 +1,5 @@
+.tabla__celda{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
