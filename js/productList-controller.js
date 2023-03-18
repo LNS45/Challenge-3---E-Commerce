@@ -1,4 +1,4 @@
-export const mostrarTodosLosProductos = () =>{
+export const mostrarTodosLosProductos = (pagina) =>{
 
     const URL =  "http://localhost:3000";
     const Seccion = document.querySelector(".productos");
@@ -42,7 +42,7 @@ export const mostrarTodosLosProductos = () =>{
                     let tipo = recorrerCategorias(indice)
                     indice+=1;
                     for(let i = 0;i <= producto[tipo].length - 1; i++){
-                        const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio);
+                        const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio, pagina);
                         contenedores.forEach(contenedor => {
                             if(tipo == contenedor.dataset.type){
                                 const ul = contenedor.querySelector(".producto__lista");
@@ -59,17 +59,39 @@ export const mostrarTodosLosProductos = () =>{
         let tipo = listadoCategorias[0].lista[i];
         return tipo;
     }
-    
-    
-    function mostrarProductos(nombre, precio){
+    function agregarIconos(){
+        const contenido =             
+        `<i class="fas fa-edit producto__iconEdit"></i>
+        <i class="fas fa-trash producto__iconTrash"></i>`;
+        return contenido;
+    }
+
+
+    function mostrarProductos(nombre, precio, tipoPagina){
         const Contenedor = document.createElement("li");
         Contenedor.classList.add("producto__contenedor");
-        const contenido =
+        let contenido = '';
+        if(tipoPagina == "UserPage"){
+            contenido =
             `<div class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
-            <a href="#" class="producto__descripcion">Ver producto</a>`
-            Contenedor.innerHTML = contenido;
-            return Contenedor;
-    };
+            <a href="#" class="producto__descripcion">Ver producto</a>`;
+        }else if(tipoPagina == "AdminPage"){
+            contenido =
+            `<i class="fas fa-edit producto__iconEdit"></i>
+            <i class="fas fa-trash producto__iconTrash"></i>
+            <div class="producto__imagen"></div>
+            <span class="producto__nombre">${nombre}</span>
+            <span class="producto__precio">${precio}</span>
+            <a href="#" class="producto__descripcion">Ver producto</a>`;
+        }
+        Contenedor.innerHTML = contenido;
+        return Contenedor;
+        };
+
 };
+
+
+//                            const iconos = agregarIconos();
+//listarProducto.appendChild(iconos);

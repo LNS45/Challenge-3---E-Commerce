@@ -19,15 +19,18 @@
     <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-contenedor.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-link.css">
-    <link rel="stylesheet" href="/assets/css/promocional/promocional.css">
-    <link rel="stylesheet" href="/assets/css/promocional/promocional-titulo.css">
-    <link rel="stylesheet" href="/assets/css/promocional/promocional-subtitulo.css">
     <link rel="stylesheet" href="/assets/css/productos/productos.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-contenedorTitulo.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-tituloAgregar.css">
+    <link rel="stylesheet" href="/assets/css/productos/productos-btnAgregar.css">
     <link rel="stylesheet" href="/assets/css/productos/productos-contenedor.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-categoria.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-lista.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-id.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-vermas.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-iconEdit.css">
+    <link rel="stylesheet" href="/assets//css/productos/producto-iconTrash.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-imagen.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-nombre.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-precio.css">
@@ -51,7 +54,7 @@
     <link rel="stylesheet" href="/assets/css/footer/rotapie.css">
     <link rel="stylesheet" href="/assets/css/footer/rotapie-titulo.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-invalid.css">
-    <title>Gibstar Shop</title>
+    <title>Gibstar Shop | Admin</title>
 </head>
 <body>
     <header class="cabezal">
@@ -64,36 +67,24 @@
                         <label for="search" class="barra__icono"><i class="fa-solid fa-magnifying-glass"></i></label>
                     </div>
                 </div>
-                    <a href="/screens/admin-page.html" class="barra__link">Iniciar Sesión</a>
-            </div>
-        </section>
-        <section class="nav">
-            <div class="nav__contenedor">
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
-                <a href="#" class="nav__link">Categoria</a>
             </div>
         </section>
     </header>
     <main>
-        <section class="promocional">
-                <h1 class="promocional__titulo">¡Aprovecha este Marzo de Descuentos de hasta 70%!</h1>
-                <h2 class="promocional__subtitulo">¡Ofertas en guitarras y bajos!</h2>
-        </section>
         <section class="productos">
+            <div class="productos__contenedorTitulo">
+                <h2 class="productos__tituloAgregar">Todos los Productos</h2>
+                <button class="productos__btnAgregar">Agregar Producto</button>
+            </div>
             <div class="productos__contenedor">
-                <a href="#" class="producto__categoria">Categoria</a>
-                <a href="#" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
                 <ul class="producto__lista">
                     <li class="producto__contenedor">
+                        <i class="fas fa-edit producto__iconEdit"></i>
+                        <i class="fas fa-trash producto__iconTrash"></i>
                         <div class="producto__imagen"></div>
                         <span class="producto__nombre">Producto XYZ</span>
                         <span class="producto__precio">$100.00</span>
-                        <a href="#" class="producto__descripcion">Ver producto</a>
+                        <span class="producto__id">ID:#8319</span>
                     </li>
                 </ul>
             </div>
@@ -148,6 +139,6 @@
     <footer class="rotapie">
         <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez - 2023</h2>
     </footer>
-    <script type="module" src="/js/user-controller.js"></script>
+    <script type="module" src="/js/admin-controller.js"></script>
 </body>
 </html>
