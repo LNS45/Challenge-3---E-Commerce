@@ -4,53 +4,67 @@
         "Guitarras":[
             {
                 "id": "121",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$24000",
-                "descripcion": "Guitarra acustica",
+                "nombre": "Fender Malibu",
+                "precio": "$7899.00",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
                 "categoria": "guitarra",
-                "imagen": ""
+                "imagen": "/assets/images/Guitarras/Fender Malibu.jpg"
             },
             {
                 "id": "132",
-                "nombre": "Guitarra Electrica",
-                "precio": "$19000",
+                "nombre": "Gibson ES-335",
+                "precio": "$4889.00",
                 "descripcion": "Guitarra Electrica",
                 "categoria": "guitarra",
-                "imagen": ""
+                "imagen": "/assets/images/Guitarras/Gibson ES-335.jpg"
             },
             {
                 "id": "132",
-                "nombre": "Guitarra Electrica",
-                "precio": "$19000",
+                "nombre": "Fender Stratocaster",
+                "precio": "$6700.00",
                 "descripcion": "Guitarra Electrica",
                 "categoria": "guitarra",
-                "imagen": ""
+                "imagen": "/assets/images/Guitarras/Fender Stratocaster.jpg"
             },
             {
                 "id": "132",
-                "nombre": "Guitarra Electrica",
-                "precio": "$19000",
+                "nombre": "Epiphone 1598 Explorer",
+                "precio": "$3700.00",
                 "descripcion": "Guitarra Electrica",
                 "categoria": "guitarra",
-                "imagen": ""
+                "imagen": "/assets/images/Guitarras/Epiphone 1958 Explorer.jpg"
             }
         ]},
         {"Bajos":[
             {
                 "id": "1901",
-                "nombre": "Bajo 5 Cuerdas",
-                "precio": "$10000",
+                "nombre": "Fender Precision",
+                "precio": "$5150.00",
                 "descripcion": "Guitarra acustica",
                 "categoria": "bajo",
-                "imagen": ""
+                "imagen": "/assets/images/Bajos/Fender Precision.jpg"
             },
             {
                 "id": "121",
-                "nombre": "Bajo 4 Cuerdas",
-                "precio": "$20900",
+                "nombre": "Ibanez SR300",
+                "precio": "$6550.00",
                 "descripcion": "Guitarra acustica",
                 "categoria": "bajo",
-                "imagen": ""
+                "imagen": "/assets/images/Bajos/Ibanez SR300.jpg"
+            },            {
+                "id": "121",
+                "nombre": "Fender Mustang",
+                "precio": "$11360.00",
+                "descripcion": "Guitarra acustica",
+                "categoria": "bajo",
+                "imagen": "/assets/images/Bajos/Fender Mustang .jpg"
+            },            {
+                "id": "121",
+                "nombre": "Ibanez AEB5E Acoustic",
+                "precio": "$6726.00",
+                "descripcion": "Guitarra acustica",
+                "categoria": "bajo",
+                "imagen": "/assets/images/Bajos/Ibanez AEB5E Acoustic.jpg"
             }
         ]},
         {"Pedales":[

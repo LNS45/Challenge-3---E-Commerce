@@ -42,7 +42,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
                     let tipo = recorrerCategorias(indice)
                     indice+=1;
                     for(let i = 0;i <= producto[tipo].length - 1; i++){
-                        const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio, pagina);
+                        const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio,producto[tipo][i].imagen, pagina);
                         contenedores.forEach(contenedor => {
                             if(tipo == contenedor.dataset.type){
                                 const ul = contenedor.querySelector(".producto__lista");
@@ -58,22 +58,17 @@ export const mostrarTodosLosProductos = (pagina) =>{
     function recorrerCategorias(i){
         let tipo = listadoCategorias[0].lista[i];
         return tipo;
-    }
-    function agregarIconos(){
-        const contenido =             
-        `<i class="fas fa-edit producto__iconEdit"></i>
-        <i class="fas fa-trash producto__iconTrash"></i>`;
-        return contenido;
-    }
+    };
 
 
-    function mostrarProductos(nombre, precio, tipoPagina){
+
+    function mostrarProductos(nombre, precio, URLimagen ,tipoPagina){
         const Contenedor = document.createElement("li");
         Contenedor.classList.add("producto__contenedor");
         let contenido = '';
         if(tipoPagina == "UserPage"){
             contenido =
-            `<div class="producto__imagen"></div>
+            `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="#" class="producto__descripcion">Ver producto</a>`;
@@ -81,7 +76,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
             contenido =
             `<i class="fas fa-edit producto__iconEdit"></i>
             <i class="fas fa-trash producto__iconTrash"></i>
-            <div class="producto__imagen"></div>
+            <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="#" class="producto__descripcion">Ver producto</a>`;
