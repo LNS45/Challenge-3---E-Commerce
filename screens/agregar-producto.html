@@ -22,11 +22,8 @@
     <link rel="stylesheet" href="/assets/css/tabla/tabla-cuerpo.css">
     <link rel="stylesheet" href="/assets/css/tabla/tabla-fila.css">
     <link rel="stylesheet" href="/assets/css/tabla/tabla-celda.css">
-    <link rel="stylesheet" href="/assets/css/tabla/tabla-checkgroup.css">
     <link rel="stylesheet" href="/assets/css/tabla/tabla-input.css">
     <link rel="stylesheet" href="/assets/css/tabla/tabla-boton.css">
-    <link rel="stylesheet" href="/assets/css/tabla/tabla-radioTitle.css">
-    <link rel="stylesheet" href="/assets/css/tabla/tabla-radio.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-contenedor.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-grupo.css">
@@ -65,59 +62,57 @@
     </header>
     <main>
         <section class="agregar-productos">
-            <table class="tabla">
-                <span class="tabla__titulo">Agregar Producto</span>
-                <tbody class="tabla__cuerpo">
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda">
-                            <input name="urlimagen" type="text" class="tabla__input" required data-input="imagen-producto" placeholder="/assets/images/categoria/imagen" maxlength="200">
-                            <label for="urlimagen">URL de la Imagen</label>
-                        </td>
-                    </tr>
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda tabla__checkgroup">
-                            <span class="tabla__radioTitle">Categoria</span>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Guitarras</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Bajos</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Pedales</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Púas</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Accesorios</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Amplificadores</label>
-                            <input name="categoria" type="radio" class="tabla__radio" required data-input="categoria-producto">
-                            <label for="categoria">Cuerdas</label>
-                        </td>
-                    </tr>
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda">
-                            <input name="nombre" type="text" class="tabla__input" required data-input="nombre-producto" placeholder="Gibson Les Paul" maxlength="200">
-                            <label for="nombre">Nombre del Producto</label>
-                        </td>
-                    </tr>
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda">
-                            <input name="precio" type="text" class="tabla__input" required data-input="precio-producto" placeholder="$999.99" maxlength="15">
-                            <label for="precio">Precio del Producto</label>
-                        </td>
-                    </tr>
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda">
-                            <input name="descripcion" type="text" class="tabla__input" required data-input="imagen-producto" placeholder="Color Rojo, con 5 piezas intercambiables" maxlength="200">
-                            <label for="descripcion">Descripcion del Producto</label>
-                        </td>
-                    </tr>
-                    <tr class="tabla__fila">
-                        <td class="tabla__celda">
-                            <button type="submit" class="tabla__boton">Agregar Producto</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <form action="#">
+                <table class="tabla">
+                    <span class="tabla__titulo">Agregar Producto</span>
+                    <tbody class="tabla__cuerpo">
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="urlimagen" type="text" class="tabla__input" required data-input="imagen-producto" placeholder="/assets/images/categoria/imagen" maxlength="200">
+                                <label for="urlimagen">URL de la Imagen</label>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <select name="categoria" class="tabla__input">
+                                    <option value="Selecciona">Selecciona una categoria</option>
+                                    <option value="Guitarras">Guitarras</option>
+                                    <option value="Bajos">Bajos</option>
+                                    <option value="Pedales">Pedales</option>
+                                    <option value="Púas">Púas</option>
+                                    <option value="Accesorios">Accesorios</option>
+                                    <option value="Amplificadores">Amplificadores</option>
+                                    <option value="Cuerdas">Cuerdas</option>
+                                </select>
+                                <label for="categoria">Categoria</label>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="nombre" type="text" class="tabla__input" required data-input="nombre-producto" placeholder="Gibson Les Paul" maxlength="200">
+                                <label for="nombre">Nombre del Producto</label>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="precio" type="text" class="tabla__input" required data-input="precio-producto" placeholder="$999.99" maxlength="15">
+                                <label for="precio">Precio del Producto</label>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="descripcion" type="text" class="tabla__input" required data-input="imagen-producto" placeholder="Color Rojo, con 5 piezas intercambiables" maxlength="200">
+                                <label for="descripcion">Descripcion del Producto</label>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <button type="submit" class="tabla__boton">Agregar Producto</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
         </section>
         <section class="contacto">
             <div class="contacto__contenedor">
