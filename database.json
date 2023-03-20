@@ -1,7 +1,6 @@
 {
     "productos":[
-        {  
-        "Guitarras":[
+        {"Guitarras":[
             {
                 "id": "121",
                 "nombre": "Fender Malibu",
