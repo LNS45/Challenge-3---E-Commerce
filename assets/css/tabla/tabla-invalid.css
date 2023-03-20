@@ -1,0 +1,12 @@
+.tabla__invalid{
+    position: absolute;
+    color: red;
+    font-weight: 600;
+    top: 4.25rem;
+    left: 1.25rem;
+    visibility: hidden;
+    font-size: .75rem;
+}
+.tabla__invalid--active{
+    visibility: visible;
+}

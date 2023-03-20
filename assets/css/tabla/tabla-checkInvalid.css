@@ -1,0 +1,10 @@
+.tabla__checkInvalid{
+    position: absolute;
+    right: -1.25rem;
+    top: 1.875rem;
+    color: red;
+    visibility: hidden;
+}
+.tabla__checkInvalid--active{
+    visibility: visible;
+}

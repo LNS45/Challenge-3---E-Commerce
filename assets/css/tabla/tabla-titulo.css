@@ -1,4 +1,6 @@
 .tabla__titulo{
     font-size: 1.875rem;
     font-weight: 500;
+    width: 300px;
+    text-align: center;
 }

@@ -1,0 +1,11 @@
+.tabla__checkValid{
+    position: absolute;
+    right: -1.25rem;
+    top: 1.875rem;
+    color: rgb(3, 190, 109);
+    visibility: hidden;
+}
+
+.tabla__checkValid--active{
+    visibility: visible;
+}

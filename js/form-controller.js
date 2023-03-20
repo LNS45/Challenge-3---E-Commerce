@@ -9,25 +9,35 @@ export const validarFormulario = () =>{
             const hijo = element.target;
             const padre = hijo.parentElement;
             const spanError = padre.lastElementChild;
-            validar(hijo,spanError,padre);
+            if(hijo.dataset.input.includes("Producto")){
+                validar(hijo,spanError,padre,"tabla");
+            }else{
+                validar(hijo,spanError,padre, "contacto");
+            }
         });
     });
     
-    function validar(hijo,spanError,padre){
+    function validar(hijo,spanError,padre,tipo){
         const tipoInput = hijo.dataset.input;
-        const iInvalid = padre.querySelector(".contacto__checkInvalid");
-        const iValid = padre.querySelector(".contacto__checkValid");
+        const iInvalid = padre.querySelector(`.${tipo}__checkInvalid`);
+        const iValid = padre.querySelector(`.${tipo}__checkValid`);
         if(!hijo.validity.valid){
-            spanError.classList.add("contacto__invalid--active");
+            spanError.classList.add(`${tipo}__invalid--active`);
             spanError.innerHTML = MensajeDeError(tipoInput, hijo);
-            iInvalid.classList.add('contacto__checkInvalid--active');
-            iValid.classList.remove('contacto__checkValid--active');
-    
+            iInvalid.classList.add(`${tipo}__checkInvalid--active`);
+            iValid.classList.remove(`${tipo}__checkValid--active`);
         }
         else{
-            spanError.classList.remove("contacto__invalid--active");
-            iValid.classList.add('contacto__checkValid--active');
-            iInvalid.classList.remove('contacto__checkInvalid--active');
+            if(tipoInput == "categoriaProducto" && hijo.value == "Selecciona"){
+                iInvalid.classList.add(`${tipo}__checkInvalid--active`);
+            }else if(tipoInput == "categoriaProducto" && !hijo.value == "Selecciona"){
+                iInvalid.classList.remove(`${tipo}__checkInvalid--active`);
+            }
+            else{
+                spanError.classList.remove(`${tipo}__invalid--active`);
+                iValid.classList.add(`${tipo}__checkValid--active`);
+                iInvalid.classList.remove(`${tipo}__checkInvalid--active`);
+            }
         }
     
     };
@@ -42,6 +52,22 @@ export const validarFormulario = () =>{
         },
         mensaje: {
             valueMissing: "Por favor ingrese su mensaje"
+        },
+        imagenProducto:{
+            valueMissing: "Por favor ingrese la URL de la imagen de su producto"
+        },
+        categoriaProducto:{
+            valueMissing: "Por favor seleccione una categoria para su producto"
+        },
+        nombreProducto:{
+            valueMissing: "Por favor ingrese el nombre de su producto"
+        },
+        precioProducto:{
+            valueMissing: "Por favor ingrese el precio de su producto",
+            patternMismatch: 'Solo ingrese numeros, use "," para separar miles y "." para decimales'
+        },
+        descripcionProducto:{
+            valueMissing: "Por favor ingrese una descripcion para su producto"
         }
     };
     function MensajeDeError(tipoDeInput, hijo){
@@ -56,6 +82,15 @@ export const validarFormulario = () =>{
     
     const Errores = [
         "valueMissing",
-        "typeMismatch"
+        "typeMismatch",
+        "patternMismatch"
     ];
+}
+
+//Validar formulario Agregar Producto
+
+export const validarAgregarProducto = () => {
+
+
+
 }
