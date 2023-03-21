@@ -151,6 +151,22 @@
       "descripcion": "XD",
       "categoria": "Guitarras",
       "imagen": "/aaass"
+    },
+    {
+      "id": "7276d9d3-e95c-460c-b8c8-e942b7515f0e",
+      "nombre": "Pedal Mamalonnnnn",
+      "precio": "9999999",
+      "descripcion": "Bien pinshe caro jeje",
+      "categoria": "Pedales",
+      "imagen": "/assets/images"
+    },
+    {
+      "id": "a839fe17-246e-4950-80d6-5b37758ce1ff",
+      "nombre": "Cuerdas de pelos xd",
+      "precio": "$21310",
+      "descripcion": "Ni idea, se me ocurrio jaja",
+      "categoria": "Cuerdas",
+      "imagen": "/assets/images"
     }
   ],
   "categorias": [
