@@ -1,171 +1,169 @@
 {
-    "productos":[
-        {"Guitarras":[
-            {
-                "id": "121",
-                "nombre": "Fender Malibu",
-                "precio": "$7899.00",
-                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
-                "categoria": "guitarra",
-                "imagen": "/assets/images/Guitarras/Fender Malibu.jpg"
-            },
-            {
-                "id": "132",
-                "nombre": "Gibson ES-335",
-                "precio": "$4889.00",
-                "descripcion": "Guitarra Electrica",
-                "categoria": "guitarra",
-                "imagen": "/assets/images/Guitarras/Gibson ES-335.jpg"
-            },
-            {
-                "id": "132",
-                "nombre": "Fender Stratocaster",
-                "precio": "$6700.00",
-                "descripcion": "Guitarra Electrica",
-                "categoria": "guitarra",
-                "imagen": "/assets/images/Guitarras/Fender Stratocaster.jpg"
-            },
-            {
-                "id": "132",
-                "nombre": "Epiphone 1598 Explorer",
-                "precio": "$3700.00",
-                "descripcion": "Guitarra Electrica",
-                "categoria": "guitarra",
-                "imagen": "/assets/images/Guitarras/Epiphone 1958 Explorer.jpg"
-            }
-        ]},
-        {"Bajos":[
-            {
-                "id": "1901",
-                "nombre": "Fender Precision",
-                "precio": "$5150.00",
-                "descripcion": "Guitarra acustica",
-                "categoria": "bajo",
-                "imagen": "/assets/images/Bajos/Fender Precision.jpg"
-            },
-            {
-                "id": "121",
-                "nombre": "Ibanez SR300",
-                "precio": "$6550.00",
-                "descripcion": "Guitarra acustica",
-                "categoria": "bajo",
-                "imagen": "/assets/images/Bajos/Ibanez SR300.jpg"
-            },            {
-                "id": "121",
-                "nombre": "Fender Mustang",
-                "precio": "$11360.00",
-                "descripcion": "Guitarra acustica",
-                "categoria": "bajo",
-                "imagen": "/assets/images/Bajos/Fender Mustang .jpg"
-            },            {
-                "id": "121",
-                "nombre": "Ibanez AEB5E Acoustic",
-                "precio": "$6726.00",
-                "descripcion": "Guitarra acustica",
-                "categoria": "bajo",
-                "imagen": "/assets/images/Bajos/Ibanez AEB5E Acoustic.jpg"
-            }
-        ]},
-        {"Pedales":[
-            {
-                "id": "121",
-                "nombre": "Pedal Chorus",
-                "precio": "$900",
-                "descripcion": "Guitarra acustica",
-                "categoria": "pedal",
-                "imagen": ""
-            },
-            {
-                "id": "121",
-                "nombre": "Pedal Distortion",
-                "precio": "$1900",
-                "descripcion": "Guitarra acustica",
-                "categoria": "pedal",
-                "imagen": ""
-            }
-        ]},
-        {"Púas":[
-            {
-                "id": "121",
-                "nombre": "Paquete de puas | 24 piezas",
-                "precio": "$500",
-                "descripcion": "Guitarra acustica",
-                "categoria": "pua",
-                "imagen": ""
-            },
-            {
-                "id": "121",
-                "nombre": "Pua con diseno",
-                "precio": "$90",
-                "descripcion": "Guitarra acustica",
-                "categoria": "pua",
-                "imagen": ""
-            }
-        ]},
-        {"Accesorios":[
-            {
-                "id": "121",
-                "nombre": "Afinador electronico",
-                "precio": "$1500",
-                "descripcion": "Guitarra acustica",
-                "categoria": "accesorio",
-                "imagen": ""
-            },
-            {
-                "id": "Correa estilo soldado",
-                "nombre": "Guitarra 12 Cuerdas",
-                "precio": "$900",
-                "descripcio": "Guitarra acustica",
-                "categoria": "accesorio",
-                "imagen": ""
-            }
-        ]},
-        {"Amplificadores":[
-            {
-                "id": "121",
-                "nombre": "Amplificador",
-                "precio": "$12000",
-                "descripcion": "Guitarra acustica",
-                "categoria": "amplificador",
-                "imagen": ""
-            },
-            {
-                "id": "121",
-                "nombre": "Amp Marshall",
-                "precio": "$9000",
-                "descripcion": "Guitarra acustica",
-                "categoria": "amplificador",
-                "imagen": ""
-            }
-        ]},
-        {"Cuerdas":[
-            {
-                "id": "121",
-                "nombre": "Cuerdas para bajo",
-                "precio": "$800",
-                "descripcion": "Guitarra acustica",
-                "categoria": "cuerdas",
-                "imagen": ""
-            },
-            {
-                "id": "121",
-                "nombre": "Paquete de 12 Cuerdas",
-                "precio": "$1000",
-                "descripcion": "Guitarra acustica",
-                "categoria": "cuerdas",
-                "imagen": ""
-            }
-        ]}
-    ],
-    "categorias": [{
-        "lista":[
-            "Guitarras",
-            "Bajos",
-            "Pedales",
-            "Púas",
-            "Accesorios",
-            "Amplificadores",
-            "Cuerdas"
-        ]
-    }]
+  "productos": [
+    {
+      "id": "121",
+      "nombre": "Fender Malibu",
+      "precio": "$7899.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/Fender Malibu.jpg"
+    },
+    {
+      "id": "132",
+      "nombre": "Gibson ES-335",
+      "precio": "$4889.00",
+      "descripcion": "Guitarra Electrica",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/Gibson ES-335.jpg"
+    },
+    {
+      "id": "132",
+      "nombre": "Fender Stratocaster",
+      "precio": "$6700.00",
+      "descripcion": "Guitarra Electrica",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/Fender Stratocaster.jpg"
+    },
+    {
+      "id": "132",
+      "nombre": "Epiphone 1598 Explorer",
+      "precio": "$3700.00",
+      "descripcion": "Guitarra Electrica",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/Epiphone 1958 Explorer.jpg"
+    },
+    {
+      "id": "1901",
+      "nombre": "Fender Precision",
+      "precio": "$5150.00",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Bajos",
+      "imagen": "/assets/images/Bajos/Fender Precision.jpg"
+    },
+    {
+      "id": "121",
+      "nombre": "Ibanez SR300",
+      "precio": "$6550.00",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Bajos",
+      "imagen": "/assets/images/Bajos/Ibanez SR300.jpg"
+    },
+    {
+      "id": "121",
+      "nombre": "Fender Mustang",
+      "precio": "$11360.00",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Bajos",
+      "imagen": "/assets/images/Bajos/Fender Mustang .jpg"
+    },
+    {
+      "id": "121",
+      "nombre": "Ibanez AEB5E Acoustic",
+      "precio": "$6726.00",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Bajos",
+      "imagen": "/assets/images/Bajos/Ibanez AEB5E Acoustic.jpg"
+    },
+    {
+      "id": "121",
+      "nombre": "Pedal Chorus",
+      "precio": "$900",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Pedales",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Pedal Distortion",
+      "precio": "$1900",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Pedales",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Paquete de puas | 24 piezas",
+      "precio": "$500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Púas",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Pua con diseno",
+      "precio": "$90",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Púas",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "Correa estilo soldado",
+      "nombre": "Guitarra 12 Cuerdas",
+      "precio": "$900",
+      "descripcio": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Amplificador",
+      "precio": "$12000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Amplificadores",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Amp Marshall",
+      "precio": "$9000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Amplificadores",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Cuerdas para bajo",
+      "precio": "$800",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Cuerdas",
+      "imagen": ""
+    },
+    {
+      "id": "121",
+      "nombre": "Paquete de 12 Cuerdas",
+      "precio": "$1000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Cuerdas",
+      "imagen": ""
+    },
+    {
+      "id": "663bee9c-567a-4ebb-9915-ce30665de7d5",
+      "nombre": "Ejemplo",
+      "precio": "999.99",
+      "descripcion": "XD",
+      "categoria": "Guitarras",
+      "imagen": "/aaass"
+    }
+  ],
+  "categorias": [
+    {
+      "lista": [
+        "Guitarras",
+        "Bajos",
+        "Pedales",
+        "Púas",
+        "Accesorios",
+        "Amplificadores",
+        "Cuerdas"
+      ]
+    }
+  ]
 }

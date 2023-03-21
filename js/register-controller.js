@@ -27,5 +27,5 @@ const btn = document.querySelector(".tabla__boton");
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
-    agregarProducto("Guitarras","Ejemplo","999.99","XD","/saas");
+    agregarProducto("Guitarras","Ejemplo","999.99","XD","/aaass");
 })

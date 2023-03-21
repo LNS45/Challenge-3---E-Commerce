@@ -35,32 +35,19 @@ export const mostrarTodosLosProductos = (pagina) =>{
     fetch(`${URL}/productos`)
         .then((response) => response.json())
         .then((productos) =>{
-    let indice = 0;
     let contenedores = document.querySelectorAll("[data-type]");
-    console.log(contenedores)
-            productos.forEach(producto => {
-                    let tipo = recorrerCategorias(indice)
-                    indice+=1;
-                    for(let i = 0;i <= producto[tipo].length - 1; i++){
-                        const listarProducto = mostrarProductos(producto[tipo][i].nombre, producto[tipo][i].precio,producto[tipo][i].imagen, pagina);
-                        contenedores.forEach(contenedor => {
-                            if(tipo == contenedor.dataset.type){
-                                const ul = contenedor.querySelector(".producto__lista");
-                                ul.appendChild(listarProducto);
-                            };
-                        });
-                    };
+            productos.forEach(producto => {  
+                const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina);
+                contenedores.forEach(contenedor => {
+                    if(producto.categoria == contenedor.dataset.type){
+                        const ul = contenedor.querySelector(".producto__lista");
+                        ul.appendChild(listarProducto);
+                        };
+                });
             });
         }).catch((error) => {
             console.log("Ha ocurrido un error: " + error)
         })
-    
-    function recorrerCategorias(i){
-        let tipo = listadoCategorias[0].lista[i];
-        return tipo;
-    };
-
-
 
     function mostrarProductos(nombre, precio, URLimagen ,tipoPagina){
         const Contenedor = document.createElement("li");
@@ -86,7 +73,3 @@ export const mostrarTodosLosProductos = (pagina) =>{
         };
 
 };
-
-
-//                            const iconos = agregarIconos();
-//listarProducto.appendChild(iconos);
