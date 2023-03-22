@@ -48,7 +48,8 @@ export const validarFormulario = () =>{
         },
         email: {
             valueMissing: "Por favor ingrese su email",
-            typeMismatch: "El correo que ha ingresado no es valido"
+            typeMismatch: "El correo que ha ingresado no es valido",
+            patternMismatch: "Ingrese un correo no valido"
         },
         mensaje: {
             valueMissing: "Por favor ingrese su mensaje"
@@ -85,12 +86,4 @@ export const validarFormulario = () =>{
         "typeMismatch",
         "patternMismatch"
     ];
-}
-
-//Validar formulario Agregar Producto
-
-export const validarAgregarProducto = () => {
-
-
-
 }
