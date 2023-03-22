@@ -1,0 +1,6 @@
+.vista__grupo{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

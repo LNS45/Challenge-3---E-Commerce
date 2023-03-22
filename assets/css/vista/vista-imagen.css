@@ -1,0 +1,6 @@
+.vista__imagen{
+    width: 15.625rem;
+    height: 15.625rem;
+    border-radius: 10px;
+    box-shadow: var(--container-sombra);
+}

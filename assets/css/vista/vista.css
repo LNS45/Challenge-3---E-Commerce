@@ -1,0 +1,8 @@
+.vista{
+    height: 50rem;
+    width: 100%;
+    background-color: var(--gris-rosado);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}

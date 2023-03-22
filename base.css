@@ -22,7 +22,7 @@
     --texto-sombreado-light: 0px 0px 1px rgba(0, 0, 0, 2);
 
     /*Sombras de Contenedores*/
-    
+    --container-sombra: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 body{
