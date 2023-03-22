@@ -55,7 +55,11 @@ const agregarProducto = (categoria,nombre,precio,descripcion,imagen) => {
             "Content-type": "application/json"
         },
         body: JSON.stringify(plantilla)
-    })
+    }).then(() => {
+        window.location.href = "/screens/tarea-completada.html";
+    }).catch(() => {
+        window.location.href = "";
+    });
 };
 
 export const clientServices = {

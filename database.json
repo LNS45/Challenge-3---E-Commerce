@@ -145,27 +145,19 @@
       "imagen": ""
     },
     {
-      "id": "663bee9c-567a-4ebb-9915-ce30665de7d5",
-      "nombre": "Ejemplo",
-      "precio": "999.99",
-      "descripcion": "XD",
-      "categoria": "Guitarras",
-      "imagen": "/aaass"
-    },
-    {
-      "id": "7276d9d3-e95c-460c-b8c8-e942b7515f0e",
-      "nombre": "Pedal Mamalonnnnn",
-      "precio": "9999999",
-      "descripcion": "Bien pinshe caro jeje",
-      "categoria": "Pedales",
+      "id": "05f7dc42-da96-416b-b445-306a116d25ce",
+      "nombre": "Capotraste",
+      "precio": "$89812",
+      "descripcion": "Negro",
+      "categoria": "Accesorios",
       "imagen": "/assets/images"
     },
     {
-      "id": "a839fe17-246e-4950-80d6-5b37758ce1ff",
-      "nombre": "Cuerdas de pelos xd",
-      "precio": "$21310",
-      "descripcion": "Ni idea, se me ocurrio jaja",
-      "categoria": "Cuerdas",
+      "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4",
+      "nombre": "Mamalona xd",
+      "precio": "$3134",
+      "descripcion": "Azul :D",
+      "categoria": "Guitarras",
       "imagen": "/assets/images"
     }
   ],

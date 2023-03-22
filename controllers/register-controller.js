@@ -8,7 +8,7 @@ function activarBoton(){
     btn.addEventListener('click', (e) => {
         e.preventDefault();
         const campos = capturarCampos();
-        agregarProducto(campos[1], campos[2],campos[3],campos[4],campos[0]);
+        clientServices.agregarProducto(campos[1], campos[2],campos[3],campos[4],campos[0]);
     });
 };
 
