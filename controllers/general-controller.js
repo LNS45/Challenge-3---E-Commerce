@@ -4,5 +4,5 @@ import { mostrarTodosLosProductos } from "./productList-controller.js";
 
 export const controlador = (pagina) => {
     validarFormulario();
-    mostrarTodosLosProductos(pagina);    
+    mostrarTodosLosProductos(pagina);  
 }

@@ -17,7 +17,7 @@
       "imagen": "/assets/images/Guitarras/Gibson ES-335.jpg"
     },
     {
-      "id": "132",
+      "id": "138",
       "nombre": "Fender Stratocaster",
       "precio": "$6700.00",
       "descripcion": "Guitarra Electrica",
@@ -25,7 +25,7 @@
       "imagen": "/assets/images/Guitarras/Fender Stratocaster.jpg"
     },
     {
-      "id": "132",
+      "id": "140",
       "nombre": "Epiphone 1598 Explorer",
       "precio": "$3700.00",
       "descripcion": "Guitarra Electrica",
@@ -38,34 +38,34 @@
       "precio": "$5150.00",
       "descripcion": "Guitarra acustica",
       "categoria": "Bajos",
-      "imagen": "/assets/images/Bajos/Fender Precision.jpg"
+      "imagen": ""
     },
     {
-      "id": "121",
+      "id": "213",
       "nombre": "Ibanez SR300",
       "precio": "$6550.00",
       "descripcion": "Guitarra acustica",
       "categoria": "Bajos",
-      "imagen": "/assets/images/Bajos/Ibanez SR300.jpg"
+      "imagen": ""
     },
     {
-      "id": "121",
+      "id": "3131",
       "nombre": "Fender Mustang",
       "precio": "$11360.00",
       "descripcion": "Guitarra acustica",
       "categoria": "Bajos",
-      "imagen": "/assets/images/Bajos/Fender Mustang .jpg"
+      "imagen": ""
     },
     {
-      "id": "121",
+      "id": "901",
       "nombre": "Ibanez AEB5E Acoustic",
       "precio": "$6726.00",
       "descripcion": "Guitarra acustica",
       "categoria": "Bajos",
-      "imagen": "/assets/images/Bajos/Ibanez AEB5E Acoustic.jpg"
+      "imagen": ""
     },
     {
-      "id": "121",
+      "id": "1241",
       "nombre": "Pedal Chorus",
       "precio": "$900",
       "descripcion": "Guitarra acustica",
@@ -73,7 +73,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
+      "id": "12221",
       "nombre": "Pedal Distortion",
       "precio": "$1900",
       "descripcion": "Guitarra acustica",
@@ -81,7 +81,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
+      "id": "3121",
       "nombre": "Paquete de puas | 24 piezas",
       "precio": "$500",
       "descripcion": "Guitarra acustica",
@@ -89,7 +89,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
+      "id": "12901",
       "nombre": "Pua con diseno",
       "precio": "$90",
       "descripcion": "Guitarra acustica",
@@ -97,7 +97,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
+      "id": "177621",
       "nombre": "Afinador electronico",
       "precio": "$1500",
       "descripcion": "Guitarra acustica",
@@ -105,15 +105,7 @@
       "imagen": ""
     },
     {
-      "id": "Correa estilo soldado",
-      "nombre": "Guitarra 12 Cuerdas",
-      "precio": "$900",
-      "descripcio": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "121",
+      "id": "1000",
       "nombre": "Amplificador",
       "precio": "$12000",
       "descripcion": "Guitarra acustica",
@@ -121,7 +113,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
+      "id": "2901",
       "nombre": "Amp Marshall",
       "precio": "$9000",
       "descripcion": "Guitarra acustica",
@@ -129,15 +121,7 @@
       "imagen": ""
     },
     {
-      "id": "121",
-      "nombre": "Cuerdas para bajo",
-      "precio": "$800",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Cuerdas",
-      "imagen": ""
-    },
-    {
-      "id": "121",
+      "id": "897",
       "nombre": "Paquete de 12 Cuerdas",
       "precio": "$1000",
       "descripcion": "Guitarra acustica",
@@ -150,7 +134,7 @@
       "precio": "$89812",
       "descripcion": "Negro",
       "categoria": "Accesorios",
-      "imagen": "/assets/images"
+      "imagen": ""
     },
     {
       "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4",
@@ -158,7 +142,15 @@
       "precio": "$3134",
       "descripcion": "Azul :D",
       "categoria": "Guitarras",
-      "imagen": "/assets/images"
+      "imagen": ""
+    },
+    {
+      "id": "b92a887d-6e53-404a-a805-c95f79a4e632",
+      "nombre": "Bajo Ah perro",
+      "precio": "$90000",
+      "descripcion": "bien pinshe caro jaaj",
+      "categoria": "Bajos",
+      "imagen": ""
     }
   ],
   "categorias": [

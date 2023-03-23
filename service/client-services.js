@@ -1,3 +1,5 @@
+import { obtenerIconosBasura } from "../controllers/delete-controller.js";
+
 //Logica para crear Secciones de categorias
 const mostrarCategorias = (URL, categorizar) => {
     const Seccion = document.querySelector(".productos");
@@ -24,7 +26,7 @@ const obtenerProductos = (URL,pagina,mostrarProductos) => {
         .then((productos) =>{
     let contenedores = document.querySelectorAll("[data-type]");
             productos.forEach(producto => {  
-                const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina);
+                const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id);
                 contenedores.forEach(contenedor => {
                     if(producto.categoria == contenedor.dataset.type){
                         const ul = contenedor.querySelector(".producto__lista");
@@ -32,6 +34,12 @@ const obtenerProductos = (URL,pagina,mostrarProductos) => {
                         };
                 });
             });
+        }).then(() => {
+            //Obtiene los iconos de basura y editar de cada producto cuando ya se cargaron los productos
+            if(pagina == "AdminPage"){
+                obtenerIconosBasura();
+
+            };
         }).catch((error) => {
             console.log("Ha ocurrido un error: " + error)
         })
@@ -56,14 +64,28 @@ const agregarProducto = (categoria,nombre,precio,descripcion,imagen) => {
         },
         body: JSON.stringify(plantilla)
     }).then(() => {
-        window.location.href = "/screens/tarea-completada.html";
+        window.location.href = "../screens/tarea-completada.html";
     }).catch(() => {
-        window.location.href = "";
+        window.location.href = "../screens/tarea-fallida.html";
     });
+};
+
+//Eliminar Productos
+const eliminarProducto = (id) => {
+    fetch(`http://localhost:3000/productos/${id}`,{
+        method: "DELETE",
+    })
+    .then(() => {
+        window.location.href = "../screens/tarea-completada.html";
+    })
+    .catch(() => {
+        window.location.href = "../screens/tarea-fallida.html";
+    })
 };
 
 export const clientServices = {
     mostrarCategorias,
     obtenerProductos,
-    agregarProducto
+    agregarProducto,
+    eliminarProducto
 }

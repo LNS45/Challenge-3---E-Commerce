@@ -20,7 +20,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
     
     clientServices.obtenerProductos(URL,pagina,mostrarProductos);
 
-    function mostrarProductos(nombre, precio, URLimagen ,tipoPagina){
+    function mostrarProductos(nombre, precio, URLimagen ,tipoPagina,id){
         const Contenedor = document.createElement("li");
         Contenedor.classList.add("producto__contenedor");
         let contenido = '';
@@ -33,7 +33,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
         }else if(tipoPagina == "AdminPage"){
             contenido =
             `<i class="fas fa-edit producto__iconEdit"></i>
-            <i class="fas fa-trash producto__iconTrash"></i>
+            <i class="fas fa-trash producto__iconTrash" data-trash id=${id}></i>
             <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
