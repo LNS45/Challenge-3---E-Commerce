@@ -32,7 +32,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
             <a href="#" class="producto__descripcion">Ver producto</a>`;
         }else if(tipoPagina == "AdminPage"){
             contenido =
-            `<i class="fas fa-edit producto__iconEdit"></i>
+            `<a href="../screens/editar-producto.html?id=${id}" class="producto__linkEdit"><i class="fas fa-edit producto__iconEdit" data-edit></i></a>
             <i class="fas fa-trash producto__iconTrash" data-trash id=${id}></i>
             <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>

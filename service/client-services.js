@@ -38,7 +38,6 @@ const obtenerProductos = (URL,pagina,mostrarProductos) => {
             //Obtiene los iconos de basura y editar de cada producto cuando ya se cargaron los productos
             if(pagina == "AdminPage"){
                 obtenerIconosBasura();
-
             };
         }).catch((error) => {
             console.log("Ha ocurrido un error: " + error)
@@ -83,9 +82,35 @@ const eliminarProducto = (id) => {
     })
 };
 
+//Editar Productos
+const editarProducto = (id,nombre,precio,descripcion,categoria,imagen) => {
+    let plantilla = {
+        nombre: nombre,
+        precio: `$${precio}`,
+        descripcion: descripcion,
+        categoria: categoria,
+        imagen: imagen
+    };
+    fetch(`http://localhost:3000/productos/${id}`,{
+        method: "PUT",
+        headers: {
+            "content-type": "application/json"
+        },
+        body: JSON.stringify(plantilla)
+    }).then((response) => {
+        console.log(response)
+    })
+}
+//Recupera datos por id
+const detalleProducto = (id) => {
+    return fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json());
+};
+
 export const clientServices = {
     mostrarCategorias,
     obtenerProductos,
     agregarProducto,
-    eliminarProducto
+    eliminarProducto,
+    editarProducto,
+    detalleProducto
 }

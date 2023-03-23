@@ -16,26 +16,19 @@
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-input.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-icono.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-link.css">
-    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav.css">
-    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-contenedor.css">
-    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-link.css">
-    <link rel="stylesheet" href="/assets/css/productos/productos.css">
-    <link rel="stylesheet" href="/assets/css/productos/productos-contenedorTitulo.css">
-    <link rel="stylesheet" href="/assets/css/productos/productos-tituloAgregar.css">
-    <link rel="stylesheet" href="/assets/css/productos/productos-btnAgregar.css">
-    <link rel="stylesheet" href="/assets/css/productos/productos-contenedor.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-categoria.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-lista.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-contenedor.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-id.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-vermas.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-linkEdit.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-iconEdit.css">
-    <link rel="stylesheet" href="/assets//css/productos/producto-iconTrash.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-imagen.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-nombre.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-precio.css">
-    <link rel="stylesheet" href="/assets/css/productos/producto-descripcion.css">
+    <link rel="stylesheet" href="/assets/css/tabla/agregar-productos.css">
+    <link rel="stylesheet" href="/assets/css/tabla/form.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-titulo.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-cuerpo.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-fila.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-celda.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-input.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-desplegable.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-checkValid.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-checkInvalid.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-invalid.css">
+    <link rel="stylesheet" href="/assets/css/tabla/tabla-boton.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-contenedor.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-grupo.css">
@@ -55,29 +48,91 @@
     <link rel="stylesheet" href="/assets/css/footer/rotapie.css">
     <link rel="stylesheet" href="/assets/css/footer/rotapie-titulo.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-invalid.css">
-    <title>Gibstar Shop | Admin</title>
+    <title>Gibstar | Editar Producto</title>
 </head>
 <body>
     <header class="cabezal">
         <section class="barra">
             <div class="barra__contenedor">
                 <div class="barra__grupo">
-                    <a href="/index.html"><img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo"></a>
+                    <a href="/index.html"><img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo"></a> 
                     <div class="barra__buscador">
                         <input type="search" class="barra__input" name="search" placeholder="Que deseas buscar?">
                         <label for="search" class="barra__icono"><i class="fa-solid fa-magnifying-glass"></i></label>
                     </div>
                 </div>
-                <a href="/screens/admin-page.html" class="barra__link">Admin</a>
+                    <a href="/screens/admin-page.html" class="barra__link">Menu Administrador</a>
             </div>
         </section>
     </header>
     <main>
-        <section class="productos">
-            <div class="productos__contenedorTitulo">
-                <h2 class="productos__tituloAgregar">Todos los Productos</h2>
-                <button class="productos__btnAgregar"><a href="../screens/agregar-producto.html">Agregar Producto</a></button>
-            </div>
+        <section class="agregar-productos">
+            <form action="#" class="form">
+                <table class="tabla">
+                    <span class="tabla__titulo">Editar Producto</span>
+                    <tbody class="tabla__cuerpo">
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="urlimagen" type="text" class="tabla__input" required data-input="imagenProducto" placeholder="/assets/images/categoria/imagen" maxlength="200">
+                                <label for="urlimagen">URL de la Imagen</label>
+                                <i class="fas fa-check-circle tabla__checkValid"></i>
+                                <i class="fas fa-exclamation-circle tabla__checkInvalid"></i>
+                                <span class="tabla__invalid">Error</span>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <select name="categoria" class="tabla__input tabla__desplegable" data-input="categoriaProducto">
+                                    <option value="Selecciona">Selecciona una categoria</option>
+                                    <option value="Guitarras">Guitarras</option>
+                                    <option value="Bajos">Bajos</option>
+                                    <option value="Pedales">Pedales</option>
+                                    <option value="Púas">Púas</option>
+                                    <option value="Accesorios">Accesorios</option>
+                                    <option value="Amplificadores">Amplificadores</option>
+                                    <option value="Cuerdas">Cuerdas</option>
+                                </select>
+                                <label for="categoria">Categoria</label>
+                                <i class="fas fa-check-circle tabla__checkValid"></i>
+                                <i class="fas fa-exclamation-circle tabla__checkInvalid"></i>
+                                <span class="tabla__invalid">Error</span>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="nombre" type="text" class="tabla__input" required data-input="nombreProducto" placeholder="Gibson Les Paul" maxlength="200">
+                                <label for="nombre">Nombre del Producto</label>
+                                <i class="fas fa-check-circle tabla__checkValid"></i>
+                                <i class="fas fa-exclamation-circle tabla__checkInvalid"></i>
+                                <span class="tabla__invalid">Error</span>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="precio" type="text" class="tabla__input" required data-input="precioProducto" placeholder="$999.99" maxlength="15" pattern="^(\d|-)?(\d|,)*\.?\d*$">
+                                <label for="precio">Precio del Producto</label>
+                                <i class="fas fa-check-circle tabla__checkValid"></i>
+                                <i class="fas fa-exclamation-circle tabla__checkInvalid"></i>
+                                <span class="tabla__invalid">Error</span>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <input name="descripcion" type="text" class="tabla__input" required data-input="descripcionProducto" placeholder="Color Rojo, con 5 piezas intercambiables" maxlength="200">
+                                <label for="descripcion">Descripcion del Producto</label>
+                                <i class="fas fa-check-circle tabla__checkValid"></i>
+                                <i class="fas fa-exclamation-circle tabla__checkInvalid"></i>
+                                <span class="tabla__invalid">Error</span>
+                            </td>
+                        </tr>
+                        <tr class="tabla__fila">
+                            <td class="tabla__celda">
+                                <button type="submit" class="tabla__boton">Editar Producto</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
         </section>
         <section class="contacto">
             <div class="contacto__contenedor">
@@ -129,6 +184,7 @@
     <footer class="rotapie">
         <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez - 2023</h2>
     </footer>
-    <script type="module" src="/controllers/admin-controller.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="/controllers/edit-controller.js"></script>
 </body>
 </html>

@@ -49,12 +49,12 @@
       "imagen": ""
     },
     {
-      "id": "3131",
-      "nombre": "Fender Mustang",
-      "precio": "$11360.00",
-      "descripcion": "Guitarra acustica",
+      "nombre": "Fender Mustangg",
+      "precio": "$$11360.00",
+      "descripcion": "Bajo electrico",
       "categoria": "Bajos",
-      "imagen": ""
+      "imagen": "",
+      "id": "3131"
     },
     {
       "id": "901",
@@ -129,14 +129,6 @@
       "imagen": ""
     },
     {
-      "id": "05f7dc42-da96-416b-b445-306a116d25ce",
-      "nombre": "Capotraste",
-      "precio": "$89812",
-      "descripcion": "Negro",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
       "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4",
       "nombre": "Mamalona xd",
       "precio": "$3134",
@@ -145,12 +137,12 @@
       "imagen": ""
     },
     {
-      "id": "b92a887d-6e53-404a-a805-c95f79a4e632",
-      "nombre": "Bajo Ah perro",
-      "precio": "$90000",
+      "nombre": "Guitarra Ah perro",
+      "precio": "$$500",
       "descripcion": "bien pinshe caro jaaj",
-      "categoria": "Bajos",
-      "imagen": ""
+      "categoria": "Guitarras",
+      "imagen": "",
+      "id": "b92a887d-6e53-404a-a805-c95f79a4e632"
     }
   ],
   "categorias": [
