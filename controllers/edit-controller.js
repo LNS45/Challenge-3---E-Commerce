@@ -43,8 +43,8 @@ const inputsProducto = [
 ]
 
 const editar = () => {
-    const btn = document.querySelector(".tabla__boton");
-    btn.addEventListener('click',(e) => {
+    const form = document.querySelector(".form");
+    form.addEventListener('submit',(e) => {
         e.preventDefault();
 
         const $input = document.querySelectorAll("[data-input]");

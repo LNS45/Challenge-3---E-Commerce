@@ -129,12 +129,12 @@
       "imagen": ""
     },
     {
-      "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4",
-      "nombre": "Mamalona xd",
-      "precio": "$3134",
-      "descripcion": "Azul :D",
-      "categoria": "Guitarras",
-      "imagen": ""
+      "nombre": "Cuerdas mamalonas",
+      "precio": "$200",
+      "descripcion": "Nickel",
+      "categoria": "Cuerdas",
+      "imagen": "/assets/images/",
+      "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4"
     },
     {
       "nombre": "Guitarra Ah perro",

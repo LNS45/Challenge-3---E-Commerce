@@ -97,8 +97,10 @@ const editarProducto = (id,nombre,precio,descripcion,categoria,imagen) => {
             "content-type": "application/json"
         },
         body: JSON.stringify(plantilla)
-    }).then((response) => {
-        console.log(response)
+    }).then(() => {
+        window.location.href = "../screens/tarea-completada.html";
+    }).catch(() => {
+        window.location.href = "../screens/tarea-fallida.html";
     })
 }
 //Recupera datos por id
