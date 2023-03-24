@@ -1,10 +1,21 @@
 import { clientServices } from "../service/client-services.js";
+const url = new URL(window.location);
+const identificador = url.searchParams.get("id");
 
-export const mostrarTodosLosProductos = (pagina) =>{
+function obtenerProducto(){
+    clientServices.detalleProducto(identificador)
+    .then((datos)=> {
+        mostrarProducto(datos.imagen, datos.nombre, datos.precio, datos.descripcion)
+    });
+};
+
+
+export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice) =>{
+    
 
     const URL =  "http://localhost:3000";
 
-    clientServices.mostrarCategorias(URL, categorizar);  
+    clientServices.mostrarCategorias(URL, categorizar, cantidadSecciones, indice);  
 
     function categorizar(lista){
         const crearDiv = document.createElement("div");
@@ -21,6 +32,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
     clientServices.obtenerProductos(URL,pagina,mostrarProductos);
 
     function mostrarProductos(nombre, precio, URLimagen ,tipoPagina,id){
+        
         const Contenedor = document.createElement("li");
         Contenedor.classList.add("producto__contenedor");
         let contenido = '';
@@ -29,7 +41,7 @@ export const mostrarTodosLosProductos = (pagina) =>{
             `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
-            <a href="#" class="producto__descripcion">Ver producto</a>`;
+            <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
         }else if(tipoPagina == "AdminPage"){
             contenido =
             `<a href="../screens/editar-producto.html?id=${id}" class="producto__linkEdit"><i class="fas fa-edit producto__iconEdit" data-edit></i></a>
@@ -37,10 +49,30 @@ export const mostrarTodosLosProductos = (pagina) =>{
             <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
-            <a href="#" class="producto__descripcion">Ver producto</a>`;
+            <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
+        }else if(tipoPagina == "ProductoPage"){
+            contenido =
+            `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+            <span class="producto__nombre">${nombre}</span>
+            <span class="producto__precio">${precio}</span>
+            <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
         }
         Contenedor.innerHTML = contenido;
         return Contenedor;
         };
 
+        if(pagina == "ProductoPage"){
+            obtenerProducto();
+        }
 };
+function mostrarProducto(img,nombre,precio,descripcion){
+    const div = document.querySelector(".vista__grupo");
+    const contenido = 
+    `<img src="${img}" alt="" class="vista__imagen">
+    <div class="vista__info">
+        <h1 class="vista__nombre">${nombre}</h1>
+        <span class="vista__precio">${precio}</span>
+        <span class="vista__descripcion">${descripcion}</span>
+    </div>`;
+    div.innerHTML = contenido;
+}
