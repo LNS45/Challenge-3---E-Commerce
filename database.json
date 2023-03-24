@@ -1,76 +1,76 @@
 {
   "productos": [
     {
-      "id": "121",
       "nombre": "Fender Malibu",
-      "precio": "$7899.00",
+      "precio": "$7,899.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Fender Malibu.jpg"
+      "imagen": "../assets/images/Guitarras/Fender Malibu.jpg",
+      "id": "121"
     },
     {
-      "id": "132",
       "nombre": "Gibson ES-335",
-      "precio": "$4889.00",
-      "descripcion": "Guitarra Electrica",
+      "precio": "$4,889.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Gibson ES-335.jpg"
+      "imagen": "../assets/images/Guitarras/Gibson ES-335.jpg",
+      "id": "132"
     },
     {
-      "id": "138",
       "nombre": "Fender Stratocaster",
-      "precio": "$6700.00",
-      "descripcion": "Guitarra Electrica",
+      "precio": "$6,700.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Fender Stratocaster.jpg"
+      "imagen": "../assets/images/Guitarras/Fender Stratocaster.jpg",
+      "id": "138"
     },
     {
-      "id": "140",
       "nombre": "Epiphone 1598 Explorer",
-      "precio": "$3700.00",
-      "descripcion": "Guitarra Electrica",
+      "precio": "$3,700.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Epiphone 1958 Explorer.jpg"
+      "imagen": "../assets/images/Guitarras/Epiphone 1958 Explorer.jpg",
+      "id": "140"
     },
     {
-      "id": "1901",
       "nombre": "Fender Precision",
-      "precio": "$5150.00",
-      "descripcion": "Guitarra acustica",
+      "precio": "$5,150.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": ""
+      "imagen": "../assets/images/Bajos/Fender Precision.jpg",
+      "id": "1901"
     },
     {
-      "id": "213",
       "nombre": "Ibanez SR300",
-      "precio": "$6550.00",
-      "descripcion": "Guitarra acustica",
+      "precio": "$6,550.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": ""
+      "imagen": "../assets/images/Bajos/Ibanez SR300.jpg",
+      "id": "213"
     },
     {
-      "nombre": "Fender Mustangg",
-      "precio": "$$11360.00",
-      "descripcion": "Bajo electrico",
+      "nombre": "Fender Mustang",
+      "precio": "$11,360.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "",
+      "imagen": "../assets/images/Bajos/Fender Mustang .jpg",
       "id": "3131"
     },
     {
-      "id": "901",
       "nombre": "Ibanez AEB5E Acoustic",
-      "precio": "$6726.00",
-      "descripcion": "Guitarra acustica",
+      "precio": "$6,726.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": ""
+      "imagen": "../assets/images/Bajos/Ibanez AEB5E Acoustic.jpg",
+      "id": "901"
     },
     {
-      "id": "9031131",
-      "nombre": "Ibanez AEB5E Acoustic",
-      "precio": "$6726.00",
-      "descripcion": "Guitarra acustica",
+      "nombre": "Ibanez GSR 200",
+      "precio": "$6,999.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": ""
+      "imagen": "../assets/images/Bajos/Ibanez GSR 200.jpg",
+      "id": "9031131"
     },
     {
       "id": "1241",
@@ -201,44 +201,20 @@
       "imagen": ""
     },
     {
-      "id": "1000",
-      "nombre": "Amplificador",
-      "precio": "$12000",
-      "descripcion": "Guitarra acustica",
+      "nombre": "Fender Frontman 10G",
+      "precio": "$1,949.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
-      "imagen": ""
+      "imagen": "../assets/images/Amplificadores/Fender Frontman 10G.jpg",
+      "id": "1000"
     },
     {
-      "id": "10494900",
-      "nombre": "Amplificador",
-      "precio": "$12000",
-      "descripcion": "Guitarra acustica",
+      "nombre": "Ibanez 60 TE",
+      "precio": "$1,447.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
-      "imagen": ""
-    },
-    {
-      "id": "1003210",
-      "nombre": "Amplificador",
-      "precio": "$12000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Amplificadores",
-      "imagen": ""
-    },
-    {
-      "id": "100414110",
-      "nombre": "Amplificador",
-      "precio": "$12000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Amplificadores",
-      "imagen": ""
-    },
-    {
-      "id": "2901",
-      "nombre": "Amp Marshall",
-      "precio": "$9000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Amplificadores",
-      "imagen": ""
+      "imagen": "../assets/images/Amplificadores/Ibanez 60 TE.jpg",
+      "id": "10494900"
     },
     {
       "id": "897",
@@ -281,12 +257,52 @@
       "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4"
     },
     {
-      "nombre": "Guitarra Ah perro",
-      "precio": "$$500",
-      "descripcion": "bien pinshe caro jaaj",
+      "nombre": "Squier Affinity Series",
+      "precio": "$6,500.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "",
-      "id": "b92a887d-6e53-404a-a805-c95f79a4e632"
+      "imagen": "/assets/images/Guitarras/Squier Affinity Series Jazzmaster HH.jpg",
+      "id": "e1155f3c-958f-4015-8b05-027fc3f0b94b"
+    },
+    {
+      "nombre": "PRS SE Custom 24",
+      "precio": "$15,250.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/PRS SE Custom 24.jpg",
+      "id": "3d1f2ba9-1ce1-4e06-8ee2-0ec52118d743"
+    },
+    {
+      "nombre": "Fender Telecaster",
+      "precio": "$5,789.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images/Guitarras/Fender Telecaster.jpg",
+      "id": "532dee0d-10bf-454a-9017-9d7b8d1e84b2"
+    },
+    {
+      "id": "94104a61-f49d-428d-906d-83fbeb16d4e7",
+      "nombre": "Ibanez SR505ETVB",
+      "precio": "$14,539.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Bajos",
+      "imagen": "../assets/images/Bajos/Ibanez SR505ETVB.jpg"
+    },
+    {
+      "id": "cdb0ce9f-a675-4b5c-a90b-ecabcd5c2bb9",
+      "nombre": "Sterling Ray 34",
+      "precio": "$5,593.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Bajos",
+      "imagen": "../assets/images/Bajos/Sterling Ray 34.jpg"
+    },
+    {
+      "id": "f02de6e3-bd28-4d6b-b8b9-bdcd744d43b2",
+      "nombre": "Marshall JCM800",
+      "precio": "$23,635.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Amplificadores",
+      "imagen": "../assets/images/Amplificadores/Marshall JCM800.jpg"
     }
   ],
   "categorias": [
