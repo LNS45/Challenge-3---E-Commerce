@@ -1,9 +1,9 @@
 import { obtenerIconosBasura } from "../controllers/delete-controller.js";
 
+let listadoCategorias;
 //Logica para crear Secciones de categorias
 const mostrarCategorias = (URL, categorizar, cantidad, indice) => {
     const Seccion = document.querySelector(".productos");
-    let listadoCategorias;
     fetch(`${URL}/categorias`)
         .then((response) => response.json())
         .then((categorias) => {
@@ -20,26 +20,45 @@ const mostrarCategorias = (URL, categorizar, cantidad, indice) => {
 } 
 
 //Logica para mostrar productos
-const obtenerProductos = (URL,pagina,mostrarProductos) => {
+const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
     fetch(`${URL}/productos`)
         .then((response) => response.json())
         .then((productos) =>{
     let contenedores = document.querySelectorAll("[data-type]");
-            productos.forEach(producto => {  
-                const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id);
-                contenedores.forEach(contenedor => {
-                    if(producto.categoria == contenedor.dataset.type){
-                        const ul = contenedor.querySelector(".producto__lista");
-                        ul.appendChild(listarProducto);
-                        };
+                productos.forEach(producto => {  
+                    const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id);
+                    
+                    contenedores.forEach(contenedor => {
+                        if(producto.categoria == contenedor.dataset.type){
+                            const ul = contenedor.querySelector(".producto__lista");
+                            ul.appendChild(listarProducto);
+                            };
+                    });
                 });
-            });
+            
         }).then(() => {
             //Obtiene los iconos de basura y editar de cada producto cuando ya se cargaron los productos
             if(pagina == "AdminPage"){
                 obtenerIconosBasura();
             };
-        }).catch((error) => {
+        }).then(() => {
+            let contador = 0;
+            let contenedores = document.querySelectorAll("[data-type]");
+            while(contador < contenedores.length){
+                let conteo = listadoCategorias[0].lista[contador]
+                    const div = document.querySelector(`[data-type="${conteo}"]`);
+                    const hijodiv = div.querySelector(".producto__lista");
+                    const numeroProductos = hijodiv.childElementCount
+                    if(numeroProductos > cantidadProductos){
+                        const productos = hijodiv.children;
+                        while(hijodiv.childElementCount > cantidadProductos){
+                            hijodiv.removeChild(productos[productos.length - 1])
+                        }
+                    }
+                    contador++;
+            }   
+        })
+        .catch((error) => {
             console.log("Ha ocurrido un error: " + error)
         })
     };

@@ -1,3 +1,3 @@
 import { controlador } from "./general-controller.js";
 
-controlador("ProductoPage", 1, 0);
+controlador("ProductoPage", 1, 0, 4);

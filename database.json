@@ -65,7 +65,31 @@
       "imagen": ""
     },
     {
+      "id": "9031131",
+      "nombre": "Ibanez AEB5E Acoustic",
+      "precio": "$6726.00",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Bajos",
+      "imagen": ""
+    },
+    {
       "id": "1241",
+      "nombre": "Pedal Chorus",
+      "precio": "$900",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Pedales",
+      "imagen": ""
+    },
+    {
+      "id": "121341",
+      "nombre": "Pedal Chorus",
+      "precio": "$900",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Pedales",
+      "imagen": ""
+    },
+    {
+      "id": "19990241",
       "nombre": "Pedal Chorus",
       "precio": "$900",
       "descripcion": "Guitarra acustica",
@@ -81,7 +105,31 @@
       "imagen": ""
     },
     {
+      "id": "120910221",
+      "nombre": "Pedal Distortion",
+      "precio": "$1900",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Pedales",
+      "imagen": ""
+    },
+    {
       "id": "3121",
+      "nombre": "Paquete de puas | 24 piezas",
+      "precio": "$500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Púas",
+      "imagen": ""
+    },
+    {
+      "id": "312109091",
+      "nombre": "Paquete de puas | 24 piezas",
+      "precio": "$500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Púas",
+      "imagen": ""
+    },
+    {
+      "id": "3121341",
       "nombre": "Paquete de puas | 24 piezas",
       "precio": "$500",
       "descripcion": "Guitarra acustica",
@@ -97,6 +145,14 @@
       "imagen": ""
     },
     {
+      "id": "133312901",
+      "nombre": "Pua con diseno",
+      "precio": "$90",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Púas",
+      "imagen": ""
+    },
+    {
       "id": "177621",
       "nombre": "Afinador electronico",
       "precio": "$1500",
@@ -105,7 +161,71 @@
       "imagen": ""
     },
     {
+      "id": "1776913921",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "17909107621",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "1772141621",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "17769302921",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
+      "id": "1388377621",
+      "nombre": "Afinador electronico",
+      "precio": "$1500",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Accesorios",
+      "imagen": ""
+    },
+    {
       "id": "1000",
+      "nombre": "Amplificador",
+      "precio": "$12000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Amplificadores",
+      "imagen": ""
+    },
+    {
+      "id": "10494900",
+      "nombre": "Amplificador",
+      "precio": "$12000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Amplificadores",
+      "imagen": ""
+    },
+    {
+      "id": "1003210",
+      "nombre": "Amplificador",
+      "precio": "$12000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Amplificadores",
+      "imagen": ""
+    },
+    {
+      "id": "100414110",
       "nombre": "Amplificador",
       "precio": "$12000",
       "descripcion": "Guitarra acustica",
@@ -122,6 +242,30 @@
     },
     {
       "id": "897",
+      "nombre": "Paquete de 12 Cuerdas",
+      "precio": "$1000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Cuerdas",
+      "imagen": ""
+    },
+    {
+      "id": "89431417",
+      "nombre": "Paquete de 12 Cuerdas",
+      "precio": "$1000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Cuerdas",
+      "imagen": ""
+    },
+    {
+      "id": "8214597",
+      "nombre": "Paquete de 12 Cuerdas",
+      "precio": "$1000",
+      "descripcion": "Guitarra acustica",
+      "categoria": "Cuerdas",
+      "imagen": ""
+    },
+    {
+      "id": "8943217",
       "nombre": "Paquete de 12 Cuerdas",
       "precio": "$1000",
       "descripcion": "Guitarra acustica",

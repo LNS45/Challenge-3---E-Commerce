@@ -9,3 +9,6 @@
     margin-top: 20px;
     position: relative;
 }
+.producto__contenedor--inactive{
+    display: none;
+}
