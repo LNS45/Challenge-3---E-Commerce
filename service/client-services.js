@@ -31,7 +31,7 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
         .then((productos) =>{
     let contenedores = document.querySelectorAll("[data-type]");
                 productos.forEach(producto => {  
-                    const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id);
+                    const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id, producto.categoria);
                     
                     contenedores.forEach(contenedor => {
                         if(producto.categoria == contenedor.dataset.type){

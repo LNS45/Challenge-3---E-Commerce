@@ -1,3 +1,5 @@
 import { controlador } from "./general-controller.js";
+import { idCategoria } from "./productList-controller.js";
+const id = idCategoria();
 
-controlador("ProductoPage", 1, 0, 4);
+controlador("ProductoPage", id + 1, id, 4);

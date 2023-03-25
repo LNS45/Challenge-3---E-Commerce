@@ -1,6 +1,7 @@
 import { clientServices } from "../service/client-services.js";
 const url = new URL(window.location);
 const identificador = url.searchParams.get("id");
+const idcat = url.searchParams.get("cat");
 
 export function idCategoria(){
     const categorias = {
@@ -12,7 +13,7 @@ export function idCategoria(){
         "Amplificadores": 5,
         "Cuerdas": 6,
     }
-    const categoria = categorias[identificador];
+    const categoria = categorias[idcat];
     return categoria 
 };
 
@@ -49,13 +50,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
 
     function crearNavCategorias(lista) {
         const contenido = 
-        `<a href="../screens/categoria-producto.html?id=${lista[0]}" class="nav__link">${lista[0]}</a>
-        <a href="../screens/categoria-producto.html?id=${lista[1]}" class="nav__link">${lista[1]}</a> 
-        <a href="../screens/categoria-producto.html?id=${lista[2]}" class="nav__link">${lista[2]}</a>
-        <a href="../screens/categoria-producto.html?id=${lista[3]}" class="nav__link">${lista[3]}</a>
-        <a href="../screens/categoria-producto.html?id=${lista[4]}" class="nav__link">${lista[4]}</a>
-        <a href="../screens/categoria-producto.html?id=${lista[5]}" class="nav__link">${lista[5]}</a>
-        <a href="../screens/categoria-producto.html?id=${lista[6]}" class="nav__link">${lista[6]}</a>`;
+        `<a href="../screens/categoria-producto.html?cat=${lista[0]}"class="nav__link">${lista[0]}</a>
+        <a href="../screens/categoria-producto.html?cat=${lista[1]}" class="nav__link">${lista[1]}</a> 
+        <a href="../screens/categoria-producto.html?cat=${lista[2]}" class="nav__link">${lista[2]}</a>
+        <a href="../screens/categoria-producto.html?cat=${lista[3]}" class="nav__link">${lista[3]}</a>
+        <a href="../screens/categoria-producto.html?cat=${lista[4]}" class="nav__link">${lista[4]}</a>
+        <a href="../screens/categoria-producto.html?cat=${lista[5]}" class="nav__link">${lista[5]}</a>
+        <a href="../screens/categoria-producto.html?cat=${lista[6]}" class="nav__link">${lista[6]}</a>`;
         barraNav.innerHTML = contenido;
         return barraNav;
     }
@@ -64,7 +65,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
     clientServices.obtenerProductos(URL,pagina,mostrarProductos, cantidadProductos);
 
     //Muestra los productos dependiendo del tipo de pagina
-    function mostrarProductos(nombre, precio, URLimagen ,tipoPagina,id){
+    function mostrarProductos(nombre, precio, URLimagen ,tipoPagina,id,cat){
             const Contenedor = document.createElement("li");
             Contenedor.classList.add("producto__contenedor");
             let contenido = '';
@@ -73,7 +74,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
+                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "AdminPage"){
                 contenido =
                 `<a href="../screens/editar-producto.html?id=${id}" class="producto__linkEdit"><i class="fas fa-edit producto__iconEdit" data-edit></i></a>
@@ -81,13 +82,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
+                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "ProductoPage"){
                 contenido =
                 `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}" class="producto__descripcion">Ver producto</a>`;
+                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }
             Contenedor.innerHTML = contenido;
             return Contenedor;
