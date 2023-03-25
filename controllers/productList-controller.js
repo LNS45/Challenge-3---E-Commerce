@@ -2,7 +2,19 @@ import { clientServices } from "../service/client-services.js";
 const url = new URL(window.location);
 const identificador = url.searchParams.get("id");
 
-
+export function idCategoria(){
+    const categorias = {
+        "Guitarras": 0,
+        "Bajos": 1,
+        "Pedales": 2,
+        "Púas": 3,
+        "Accesorios": 4,
+        "Amplificadores": 5,
+        "Cuerdas": 6,
+    }
+    const categoria = categorias[identificador];
+    return categoria 
+};
 
 
 //Obtiene toda la info de un producto por su ID
@@ -19,7 +31,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
     let barraNav = document.createElement("div")
     barraNav.classList.add("nav__contenedor");
 
-    clientServices.mostrarCategorias(URL, categorizar, cantidadSecciones, indice, crearNavCategorias);  
+    clientServices.mostrarCategorias(URL, categorizar, cantidadSecciones, indice, crearNavCategorias, pagina);  
     //Muestra las categorias en la lista de productos
     function categorizar(lista){
         const crearDiv = document.createElement("div");
@@ -28,7 +40,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
         const contenido = 
             `<div class="producto__grupoCategoria">
             <span  class="producto__categoria">${lista}</span>
-            <a href="#" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
+            <a href="screens/categoria-producto.html?id=${lista}" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
             </div>
             <ul class="producto__lista"></ul>`
         crearDiv.innerHTML = contenido;
@@ -37,13 +49,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
 
     function crearNavCategorias(lista) {
         const contenido = 
-        `<a href="./screens/categoria-producto.html" class="nav__link">${lista[0]}</a>
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[1]}</a> 
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[2]}</a>
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[3]}</a>
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[4]}</a>
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[5]}</a>
-        <a href="./screens/categoria-producto.html" class="nav__link">${lista[6]}</a>`;
+        `<a href="../screens/categoria-producto.html?id=${lista[0]}" class="nav__link">${lista[0]}</a>
+        <a href="../screens/categoria-producto.html?id=${lista[1]}" class="nav__link">${lista[1]}</a> 
+        <a href="../screens/categoria-producto.html?id=${lista[2]}" class="nav__link">${lista[2]}</a>
+        <a href="../screens/categoria-producto.html?id=${lista[3]}" class="nav__link">${lista[3]}</a>
+        <a href="../screens/categoria-producto.html?id=${lista[4]}" class="nav__link">${lista[4]}</a>
+        <a href="../screens/categoria-producto.html?id=${lista[5]}" class="nav__link">${lista[5]}</a>
+        <a href="../screens/categoria-producto.html?id=${lista[6]}" class="nav__link">${lista[6]}</a>`;
         barraNav.innerHTML = contenido;
         return barraNav;
     }
