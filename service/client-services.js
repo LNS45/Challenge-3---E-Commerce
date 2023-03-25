@@ -47,21 +47,23 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
                 obtenerIconosBasura();
             };
         }).then(() => {
-            let contador = 0;
             let contenedores = document.querySelectorAll("[data-type]");
-            while(contador < contenedores.length){
-                let conteo = listadoCategorias[0].lista[contador]
-                    const div = document.querySelector(`[data-type="${conteo}"]`);
-                    const hijodiv = div.querySelector(".producto__lista");
-                    const numeroProductos = hijodiv.childElementCount
-                    if(numeroProductos > cantidadProductos){
-                        const productos = hijodiv.children;
-                        while(hijodiv.childElementCount > cantidadProductos){
-                            hijodiv.removeChild(productos[productos.length - 1])
+            contenedores.forEach(contenedor => {
+                for(let i = 0; i < listadoCategorias[0].lista.length; i++){
+                    const conteo = listadoCategorias[0].lista[i]
+                        if(document.querySelector(`[data-type="${conteo}"]`) != null){
+                            const div = document.querySelector(`[data-type="${conteo}"]`);
+                            const hijodiv = div.querySelector(".producto__lista");
+                            const numeroProductos = hijodiv.childElementCount
+                            if(numeroProductos > cantidadProductos){
+                                const productos = hijodiv.children;
+                                while(hijodiv.childElementCount > cantidadProductos){
+                                    hijodiv.removeChild(productos[productos.length - 1])
+                                }
+                            }
                         }
-                    }
-                    contador++;
-            }   
+                }
+            });
         })
         .catch((error) => {
             console.log("Ha ocurrido un error: " + error)

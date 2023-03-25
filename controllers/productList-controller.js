@@ -22,7 +22,7 @@ export function idCategoria(){
 function obtenerProducto(){
     clientServices.detalleProducto(identificador)
     .then((datos)=> {
-        mostrarProducto(datos.imagen, datos.nombre, datos.precio, datos.descripcion)
+        mostrarProducto(datos.imagen, datos.nombre, datos.precio, datos.descripcion, datos.id)
     });
 };
 
@@ -84,6 +84,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 <span class="producto__precio">${precio}</span>
                 <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "ProductoPage"){
+
                 contenido =
                 `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
@@ -99,6 +100,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
 };
 //Muestra el producto en la vista de ver un solo producto
 function mostrarProducto(img,nombre,precio,descripcion){
+
     const div = document.querySelector(".vista__grupo");
     const contenido = 
     `<img src="${img}" alt="" class="vista__imagen">
@@ -108,4 +110,6 @@ function mostrarProducto(img,nombre,precio,descripcion){
         <span class="vista__descripcion">${descripcion}</span>
     </div>`;
     div.innerHTML = contenido;
+
 }
+
