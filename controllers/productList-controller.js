@@ -3,6 +3,7 @@ const url = new URL(window.location);
 const identificador = url.searchParams.get("id");
 const idcat = url.searchParams.get("cat");
 
+
 export function idCategoria(){
     const categorias = {
         "Guitarras": 0,
@@ -25,6 +26,18 @@ function obtenerProducto(){
         mostrarProducto(datos.imagen, datos.nombre, datos.precio, datos.descripcion, datos.id)
     });
 };
+//Muestra el producto en la vista de ver un solo producto
+function mostrarProducto(img,nombre,precio,descripcion, id){
+    const div = document.querySelector(".vista__grupo");
+    const contenido = 
+    `<img src="${img}" alt="" class="vista__imagen">
+    <div class="vista__info">
+        <h1 class="vista__nombre">${nombre}</h1>
+        <span class="vista__precio">${precio}</span>
+        <span class="vista__descripcion">${descripcion}</span>
+    </div>`;
+    div.innerHTML = contenido;
+}
 
 //Se llama desde Client Services muestra todo el contenido de productos y categorias dependiendo el tipo de pagina
 export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cantidadProductos) =>{
@@ -41,7 +54,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
         const contenido = 
             `<div class="producto__grupoCategoria">
             <span  class="producto__categoria">${lista}</span>
-            <a href="screens/categoria-producto.html?id=${lista}" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
+            <a href="../screens/categoria-producto.html?cat=${lista}" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
             </div>
             <ul class="producto__lista"></ul>`
         crearDiv.innerHTML = contenido;
@@ -66,9 +79,11 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
 
     //Muestra los productos dependiendo del tipo de pagina
     function mostrarProductos(nombre, precio, URLimagen ,tipoPagina,id,cat){
-            const Contenedor = document.createElement("li");
-            Contenedor.classList.add("producto__contenedor");
-            let contenido = '';
+        const seccion = document.querySelector(".productos");
+        const Contenedor = document.createElement("li");
+        Contenedor.setAttribute(`data-type`, `${id}`);
+        Contenedor.classList.add("producto__contenedor");
+        let contenido = '';
             if(tipoPagina == "UserPage"){
                 contenido =
                 `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
@@ -84,32 +99,35 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 <span class="producto__precio">${precio}</span>
                 <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "ProductoPage"){
-
-                contenido =
-                `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
-                <span class="producto__nombre">${nombre}</span>
-                <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
+                    contenido =
+                    `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+                    <span class="producto__nombre">${nombre}</span>
+                    <span class="producto__precio">${precio}</span>
+                    <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }
             Contenedor.innerHTML = contenido;
+
             return Contenedor;
             };
         if(pagina == "ProductoPage"){
             obtenerProducto();
         }
 };
-//Muestra el producto en la vista de ver un solo producto
-function mostrarProducto(img,nombre,precio,descripcion){
 
-    const div = document.querySelector(".vista__grupo");
-    const contenido = 
-    `<img src="${img}" alt="" class="vista__imagen">
-    <div class="vista__info">
-        <h1 class="vista__nombre">${nombre}</h1>
-        <span class="vista__precio">${precio}</span>
-        <span class="vista__descripcion">${descripcion}</span>
-    </div>`;
-    div.innerHTML = contenido;
-
+export function evitarDoble(li){
+    let identico = null;
+    if(identificador == li.dataset.type){
+        identico = li.dataset.type;
+    }
+    return [li, identico];
 }
 
+
+
+
+/*if(tipoPagina != "ProductoPage"){
+                
+}else if (Contenedor.dataset.type == id){
+    console.log("Hola")
+}
+console.log(seccion);*/

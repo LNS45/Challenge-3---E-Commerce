@@ -1,4 +1,5 @@
 import { obtenerIconosBasura } from "../controllers/delete-controller.js";
+import { evitarDoble } from "../controllers/productList-controller.js";
 
 let listadoCategorias;
 //Logica para crear Secciones de categorias
@@ -29,16 +30,30 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
     fetch(`${URL}/productos`)
         .then((response) => response.json())
         .then((productos) =>{
+    //Captura todos los contenedores
     let contenedores = document.querySelectorAll("[data-type]");
+                //Por cada producto ejecuta una funcion
                 productos.forEach(producto => {  
-                    const listarProducto = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id, producto.categoria);
-                    
+                    //Guarda el li del producto
+                    const listar = mostrarProductos(producto.nombre, producto.precio,producto.imagen, pagina, producto.id, producto.categoria);
+                    //Guarda el retorno li despues de evaluar si es producto repetido en la vista de un producto
+                    let listarProducto = evitarDoble(listar)[0];
+                    //Guarda el id del producto repetido, por defecto regresa null
+                    const indice = evitarDoble(listar)[1];
+                    //Por cada contenedor recupera el ul y agrega el li dependiendo de su categoria
                     contenedores.forEach(contenedor => {
+                        const ul = contenedor.querySelector(".producto__lista");
                         if(producto.categoria == contenedor.dataset.type){
-                            const ul = contenedor.querySelector(".producto__lista");
                             ul.appendChild(listarProducto);
-                            };
+                        };
                     });
+                    //Revisa que no sea null recupera el ul y el li del repetido y lo elimina
+                    if(indice != null){
+                        const liRepetido = document.querySelector(`[data-type="${indice}"]`);
+                        const ul = document.querySelector(".producto__lista");
+                        ul.removeChild(liRepetido)
+                    }
+
                 });
             
         }).then(() => {
