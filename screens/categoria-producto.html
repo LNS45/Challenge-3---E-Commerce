@@ -16,22 +16,15 @@
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-input.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-icono.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-link.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-contenedor.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-grupo.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-info.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-imagen.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-nombre.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-precio.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-descripcion.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-relacionados.css">
-    <link rel="stylesheet" href="/assets/css/vista/vista-subtitulo.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-nav/nav-link.css">
     <link rel="stylesheet" href="/assets/css/productos/productos.css">
     <link rel="stylesheet" href="/assets/css/productos/productos-contenedor.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-categoria.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-lista.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-contenedor.css">
-    <link rel="stylesheet" href="../assets/css/productos/producto-grupoCategoria.css">
+    <link rel="stylesheet" href="./assets/css/productos/producto-grupoCategoria.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-vermas.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-imagen.css">
     <link rel="stylesheet" href="/assets/css/productos/producto-nombre.css">
@@ -56,34 +49,37 @@
     <link rel="stylesheet" href="/assets/css/footer/rotapie.css">
     <link rel="stylesheet" href="/assets/css/footer/rotapie-titulo.css">
     <link rel="stylesheet" href="/assets/css/contacto/contacto-invalid.css">
-    <title>Gibstar | Registrar Producto</title>
+    <title>Gibstar Shop</title>
 </head>
 <body>
     <header class="cabezal">
         <section class="barra">
             <div class="barra__contenedor">
                 <div class="barra__grupo">
-                    <a href="/index.html"><img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo"></a> 
+                    <a href="/index.html"><img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo"></a>
                     <div class="barra__buscador">
                         <input type="search" class="barra__input" name="search" placeholder="Que deseas buscar?">
                         <label for="search" class="barra__icono"><i class="fa-solid fa-magnifying-glass"></i></label>
                     </div>
                 </div>
-                    <a href="/index.html" class="barra__link">Inicio</a>
+                    <a href="/screens/admin-page.html" class="barra__link">Iniciar Sesión</a>
+            </div>
+        </section>
+        <section class="nav">
+            <div class="nav__contenedor">
+                <a href="#" class="nav__link">Guitarras</a>
+                <a href="#" class="nav__link">Bajos</a>
+                <a href="#" class="nav__link">Púas</a>
+                <a href="#" class="nav__link">Accesorios</a>
+                <a href="#" class="nav__link">Amplificadores</a>
+                <a href="#" class="nav__link">Cuerdas</a>
+                <a href="#" class="nav__link">Pedales</a>
             </div>
         </section>
     </header>
     <main>
-        <section class="vista">
-            <div class="vista__contenedor">
-                <div class="vista__grupo">
-                </div>
-
-            </div>
-        </section>
         <section class="productos">
-            <h1 class="producto__categoria">Productos Relacionados</h1>
-            
+
         </section>
         <section class="contacto">
             <div class="contacto__contenedor">
@@ -135,6 +131,6 @@
     <footer class="rotapie">
         <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez - 2023</h2>
     </footer>
-    <script type="module" src="../controllers/producto-controller.js"></script>
+    <script type="module" src="/controllers/categoria-controller.js"></script>
 </body>
 </html>

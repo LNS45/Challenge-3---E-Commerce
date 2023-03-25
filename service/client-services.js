@@ -2,13 +2,16 @@ import { obtenerIconosBasura } from "../controllers/delete-controller.js";
 
 let listadoCategorias;
 //Logica para crear Secciones de categorias
-const mostrarCategorias = (URL, categorizar, cantidad, indice) => {
+const mostrarCategorias = (URL, categorizar, cantidad, indice, crearNavCategorias) => {
     const Seccion = document.querySelector(".productos");
+    const nav = document.querySelector(".nav");
     fetch(`${URL}/categorias`)
         .then((response) => response.json())
         .then((categorias) => {
             listadoCategorias = categorias;
             categorias.forEach((categoria) => {
+                let links = crearNavCategorias(categoria.lista);
+                nav.appendChild(links);
                 for(let i = indice; i < cantidad; i++) {
                     const crear = categorizar(categoria.lista[i]);
                     Seccion.appendChild(crear);

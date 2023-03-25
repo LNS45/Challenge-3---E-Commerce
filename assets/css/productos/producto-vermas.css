@@ -1,9 +1,8 @@
 .producto__vermas{
     width: 100px;
     display: flex;
-    justify-content: end;
-    width: 100%;
     color: var(--fuente-azul);
     font-weight: 700;
     text-decoration: none;
+    align-self: flex-end;
 }
