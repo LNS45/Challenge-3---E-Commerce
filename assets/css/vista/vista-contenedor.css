@@ -1,4 +1,6 @@
 .vista__contenedor{
     width: 58.75rem;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }

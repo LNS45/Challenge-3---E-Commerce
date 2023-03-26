@@ -1,6 +1,7 @@
 .vista__info{
     height: 12.5rem;
-    width: 18.75rem;
+    width: 350px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
