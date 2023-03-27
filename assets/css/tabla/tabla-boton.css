@@ -7,4 +7,10 @@
     border: none;
     outline: none;
     font-size: 1.125rem;
+    box-shadow: var(--container-sombra);
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+.tabla__boton:active{
+    transform: scale3d(0.95, 0.95, 1);
 }

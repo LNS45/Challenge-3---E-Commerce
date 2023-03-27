@@ -82,6 +82,10 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
         const seccion = document.querySelector(".productos");
         const Contenedor = document.createElement("li");
         Contenedor.setAttribute(`data-type`, `${id}`);
+        Contenedor.setAttribute('data-aos',"fade-right");
+        Contenedor.setAttribute('data-aos-delay',"350");
+        Contenedor.setAttribute('data-aos-once',"true");
+        Contenedor.setAttribute('data-aos-duration',"9000");
         Contenedor.classList.add("producto__contenedor");
         let contenido = '';
             if(tipoPagina == "UserPage"){
@@ -122,12 +126,3 @@ export function evitarDoble(li){
     return [li, identico];
 }
 
-
-
-
-/*if(tipoPagina != "ProductoPage"){
-                
-}else if (Contenedor.dataset.type == id){
-    console.log("Hola")
-}
-console.log(seccion);*/

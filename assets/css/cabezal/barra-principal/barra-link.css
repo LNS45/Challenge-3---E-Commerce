@@ -3,4 +3,13 @@
     color: #FFFFFF;
     font-size: 1.25rem;
     text-shadow: var(--texto-sombreado);
+    background-color: #6f4a52;
+    padding: .625rem;
+    border-radius: .625rem;
+    border: 1px solid var(--cafe-vino);
+    box-shadow: var(--container-sombra);
+    transition: .1s ease-in-out;
+}
+.barra__link:active{
+    transform: scale3d(0.95, 0.95, 1);
 }

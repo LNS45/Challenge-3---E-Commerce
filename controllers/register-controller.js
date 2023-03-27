@@ -5,7 +5,7 @@ validarFormulario();
 
 function activarBoton(){
     const btn = document.querySelector(".tabla__boton");
-    btn.addEventListener('click', (e) => {
+    btn.addEventListener('submit', (e) => {
         e.preventDefault();
         const campos = capturarCampos();
         clientServices.agregarProducto(campos[1], campos[2],campos[3],campos[4],campos[0]);

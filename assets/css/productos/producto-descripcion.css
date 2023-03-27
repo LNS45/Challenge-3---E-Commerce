@@ -2,4 +2,8 @@
     text-decoration: none;
     color: var(--fuente-azul);
     font-weight: 700;
+    transition: .2s ease-in-out;
+}
+.producto__descripcion:hover{
+    text-decoration: underline;
 }

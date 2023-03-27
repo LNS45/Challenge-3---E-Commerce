@@ -1,7 +1,11 @@
 .nav__link{
     text-decoration: none;
-    color: var(--fuente-cafe);
+    color: var(--negra);
     font-weight: 700;
     font-size: 1.25rem;
-    text-shadow: var(--texto-sombreado-light);
+    transition: .1s ease-in-out;
+}
+.nav__link:hover{
+    color: var(--fuente-azul);
+    text-decoration: underline;
 }
