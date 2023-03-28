@@ -66,14 +66,14 @@
                 <div class="login__contenedor">
                     <h1 class="login__titulo">Iniciar Sesión</h1>
                     <div class="login__grupo">
-                        <input type="text" class="login__input" name="user" placeholder="Usuario" required minlength="5">
+                        <input type="text" class="login__input" name="user" placeholder="Usuario" required data-input="Usuario_Login" min="5">
                         <label for="user"><i class="fas fa-user-circle"></i></label>
                         <i class="fas fa-check-circle login__checkValid"></i>
                         <i class="fas fa-exclamation-circle login__checkInvalid"></i>
-                        <span class="login__invalid">Error</span>
+                        <span class="login__invalid">El usuario debe tener por lo menos 5 carácteres</span>
                     </div>
                     <div class="login__grupo">
-                        <input type="password" class="login__input" name="user" placeholder="Contraseña" required pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$">
+                        <input type="password" class="login__input" name="user" placeholder="Contraseña" required pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" data-input="Password_Login">
                         <label for="user"><i class="fas fa-lock fa-1x"></i></label>
                         <i class="fas fa-check-circle login__checkValid"></i>
                         <i class="fas fa-exclamation-circle login__checkInvalid"></i>
@@ -133,5 +133,6 @@
     <footer class="rotapie">
         <h2 class="rotapie__titulo">&copy Desarrollado por Lorenzo Chavez - 2023</h2>
     </footer>
+    <script type="module" src="../controllers/login-controller.js"></script>
 </body>
 </html>

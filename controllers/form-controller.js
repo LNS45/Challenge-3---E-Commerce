@@ -1,5 +1,6 @@
 //Validacion del Formulario de contacto
 
+//Funcion que da funcionalidad a los formularios
 export const validarFormulario = () =>{
     const $input = document.querySelectorAll("[data-input]");
 
@@ -11,7 +12,9 @@ export const validarFormulario = () =>{
             const spanError = padre.lastElementChild;
             if(hijo.dataset.input.includes("Producto")){
                 validar(hijo,spanError,padre,"tabla");
-            }else{
+            }else if(hijo.dataset.input.includes("Login")){
+                validar(hijo,spanError,padre,"login");
+            } else {
                 validar(hijo,spanError,padre, "contacto");
             }
         });
@@ -69,6 +72,13 @@ export const validarFormulario = () =>{
         },
         descripcionProducto:{
             valueMissing: "Por favor ingrese una descripcion para su producto"
+        },
+        Usuario_Login:{
+            valueMissing: "Por favor ingrese un usuario"
+        },
+        Password_Login:{
+            valueMissing:"Por favor ingrese una contraseña",
+            patternMismatch: "La contraseña debe tener al entre 8 y 16 caracteres, al menos un dígito, al menos una minúscula y al menos una mayúscula."
         }
     };
     function MensajeDeError(tipoDeInput, hijo){

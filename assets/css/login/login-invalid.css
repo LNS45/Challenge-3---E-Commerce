@@ -1,9 +1,9 @@
 .login__invalid{
     position: absolute;
-    left: .625rem;
+    left: 0rem;
     top: 3.125rem;
     color:white;
-    font-size: .9375rem;
+    font-size: .75rem;
     padding: .3125rem;
     border-radius: .625rem;
     background-color: red;
