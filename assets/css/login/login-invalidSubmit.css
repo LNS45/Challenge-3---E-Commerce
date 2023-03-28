@@ -1,0 +1,13 @@
+.login__invalidSubmit{
+    position: absolute;
+    font-weight: 700;
+    top: 6.25rem;
+    background-color: red;
+    color: var(--blanco);
+    padding: .3125rem;
+    border-radius: .625rem;
+    visibility: hidden;
+}
+.login__invalidSubmit--active{
+    visibility: visible;
+}

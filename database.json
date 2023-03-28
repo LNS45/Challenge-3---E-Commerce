@@ -317,5 +317,12 @@
         "Cuerdas"
       ]
     }
+  ],
+  "cuentas": [
+    {
+      "user": "Admin",
+      "password": "Lns12345",
+      "type": "admin"
+    }
   ]
 }

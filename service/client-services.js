@@ -149,11 +149,32 @@ const detalleProducto = (id) => {
     return fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json());
 };
 
+//Recuperar info de Cuentas
+const infoCuenta = (usuario, contra, error) => {
+    fetch('http://localhost:3000/cuentas')
+    .then(response => response.json())
+    .then((cuentas) => {
+        cuentas.forEach(cuenta => {
+            if(cuenta.user == usuario && cuenta.password == contra){
+                window.location.href = "../screens/admin-page.html";
+                error.classList.remove("login__invalidSubmit--active");
+            }
+            else{
+                error.classList.add("login__invalidSubmit--active");
+            }
+        });
+    })
+    .catch((error) => {
+        console.log("Ha ocurrido un error: " + error)
+    });
+}
+
 export const clientServices = {
     mostrarCategorias,
     obtenerProductos,
     agregarProducto,
     eliminarProducto,
     editarProducto,
-    detalleProducto
+    detalleProducto,
+    infoCuenta
 }
