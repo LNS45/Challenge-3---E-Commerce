@@ -1,0 +1,10 @@
+.login__checkValid{
+    position: absolute;
+    right: .5rem;
+    top: .8125rem;
+    color: #03be6d;
+    visibility: hidden;
+}
+.login__checkValid--active{
+    visibility: visible;
+}

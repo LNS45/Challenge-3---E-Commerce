@@ -1,0 +1,10 @@
+.login__checkInvalid{
+        position: absolute;
+        right: .5rem;
+        top: .8125rem;
+        color: red;
+        visibility: hidden
+};
+.login__checkInvalid--active{
+        visibility: visible;
+}

@@ -1,0 +1,15 @@
+.login__invalid{
+    position: absolute;
+    left: .625rem;
+    top: 3.125rem;
+    color:white;
+    font-size: .9375rem;
+    padding: .3125rem;
+    border-radius: .625rem;
+    background-color: red;
+    text-shadow: var(--texto-sombreado-light);
+    visibility: hidden;
+}
+.login__invalid--active{
+    visibility: visible;
+}

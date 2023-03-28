@@ -1,0 +1,20 @@
+.login__boton{
+    position: absolute;
+    left: 160px;
+    top: 400px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    transition: .1s ease-in-out;
+    box-shadow: var(--container-sombra);
+    background-color: #E2D9DB;
+    border: none;
+    border-radius: 10px;
+}
+
+.login__boton:hover{
+    transform: scale(1.2);
+}
+.login__boton:active{
+    transform: scale3d(1, 1, 1);
+}

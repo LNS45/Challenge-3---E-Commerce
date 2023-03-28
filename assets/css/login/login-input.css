@@ -1,0 +1,22 @@
+.login__input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 2.5rem;
+    border-radius: .625rem;
+    outline: none;
+    border: none;
+    background-color: #E2D9DB;
+    padding: 0px 1.875rem;
+    font-size: 1rem;
+}
+.login__input~label{
+    position: absolute;
+    top: .6875rem;
+    left: .625rem;
+}
+.login__input:invalid{
+    border: 3px solid red;
+}
+.login__input:valid{
+    border: 3px solid #03be6d;
+}
