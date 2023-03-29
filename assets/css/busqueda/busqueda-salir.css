@@ -1,0 +1,11 @@
+.busqueda__salir{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.busqueda__salir:hover{
+    color: rgb(255, 0, 0);
+
+}

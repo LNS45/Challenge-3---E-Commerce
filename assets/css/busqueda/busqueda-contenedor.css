@@ -1,0 +1,12 @@
+.busqueda__contenedor{
+    border: 5px solid var(--cafe-vino);
+    width: 750px;
+    height: 430px;
+    position: absolute;
+    top: 40px;
+    background-color: var(--gris-rosado);
+    border-radius: 5px;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
