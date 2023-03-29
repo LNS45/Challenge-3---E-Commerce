@@ -1,5 +1,6 @@
 import { obtenerIconosBasura } from "../controllers/delete-controller.js";
 import { evitarDoble } from "../controllers/productList-controller.js";
+import { buscar } from "../controllers/buscar-controller.js";
 
 let listadoCategorias;
 //Logica para crear Secciones de categorias
@@ -53,7 +54,6 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
                         const ul = document.querySelector(".producto__lista");
                         ul.removeChild(liRepetido)
                     }
-
                 });
             
         }).then(() => {
@@ -62,6 +62,7 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
                 obtenerIconosBasura();
             };
         }).then(() => {
+            //Limita cantidad de productos a mostrar
             let contenedores = document.querySelectorAll("[data-type]");
             contenedores.forEach(contenedor => {
                 for(let i = 0; i < listadoCategorias[0].lista.length; i++){
@@ -168,6 +169,21 @@ const infoCuenta = (usuario, contra, error) => {
         console.log("Ha ocurrido un error: " + error)
     });
 }
+const busquedaProductos = (busqueda, lista) => {
+    fetch("http://localhost:3000/productos")
+        .then((response) => response.json())
+        .then((productos) =>{
+            productos.forEach(producto => {
+                buscar(producto.imagen, producto.nombre, producto.precio, producto.categoria, producto.id, busqueda, lista);
+            });
+            const ul = document.querySelector(".busqueda__lista");
+            if(ul.childElementCount == 0){
+                const error = document.querySelector(".busqueda__error");
+                error.style.visibility = 'visible'
+            }
+        })
+}
+
 
 export const clientServices = {
     mostrarCategorias,
@@ -176,5 +192,6 @@ export const clientServices = {
     eliminarProducto,
     editarProducto,
     detalleProducto,
-    infoCuenta
+    infoCuenta,
+    busquedaProductos
 }

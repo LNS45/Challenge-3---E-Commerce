@@ -303,6 +303,22 @@
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
       "imagen": "../assets/images/Amplificadores/Marshall JCM800.jpg"
+    },
+    {
+      "id": "57776983-7ac2-485e-b26f-84362d7eb36e",
+      "nombre": "Pancho",
+      "precio": "$13214",
+      "descripcion": "Azules",
+      "categoria": "Cuerdas",
+      "imagen": "/assets/images"
+    },
+    {
+      "id": "28cefd40-6208-4e47-8a0e-cbc4601d90cf",
+      "nombre": "Blabla",
+      "precio": "$099999",
+      "descripcion": "negro",
+      "categoria": "Bajos",
+      "imagen": "/assets/images"
     }
   ],
   "categorias": [

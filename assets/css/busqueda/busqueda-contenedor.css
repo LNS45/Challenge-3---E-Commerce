@@ -1,11 +1,11 @@
 .busqueda__contenedor{
-    border: 5px solid var(--cafe-vino);
-    width: 750px;
-    height: 430px;
+    border: .3125rem solid var(--cafe-vino);
+    width: 46.875rem;
+    height: 26.875rem;
     position: absolute;
-    top: 40px;
+    top: 2.5rem;
     background-color: var(--gris-rosado);
-    border-radius: 5px;
+    border-radius: .3125rem;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,9 @@
+.busqueda__error{
+    color: red;
+    font-weight: 700;
+    align-self: center;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    visibility: hidden;
+}

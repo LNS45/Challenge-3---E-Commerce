@@ -1,6 +1,8 @@
 import { clientServices } from "../service/client-services.js";
 import { validarFormulario } from "./form-controller.js";
+import { capturarCampo } from "./buscar-controller.js";
 
+capturarCampo();
 validarFormulario();
 const url = new URL(window.location);
 const id = url.searchParams.get("id");

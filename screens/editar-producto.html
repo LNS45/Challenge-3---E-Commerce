@@ -16,8 +16,21 @@
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-logo.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-buscador.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-input.css">
+    <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-btn.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-icono.css">
     <link rel="stylesheet" href="/assets/css/cabezal/barra-principal/barra-link.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda-titulo.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda-lista.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda-error.css">
+    <link rel="stylesheet" href="/assets/css/busqueda/busqueda-salir.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-lista.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-contenedor.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-imagen.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-nombre.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-precio.css">
+    <link rel="stylesheet" href="/assets/css/productos/producto-descripcion.css">
     <link rel="stylesheet" href="/assets/css/tabla/agregar-productos.css">
     <link rel="stylesheet" href="/assets/css/tabla/form.css">
     <link rel="stylesheet" href="/assets/css/tabla/tabla.css">
@@ -59,15 +72,26 @@
                 <div class="barra__grupo">
                     <a href="/index.html"><img src="/assets/icons/logo-black.png" alt="Logo de la empresa" class="barra__logo"></a> 
                     <div class="barra__buscador">
-                        <input type="search" class="barra__input" name="search" placeholder="Que deseas buscar?">
-                        <label for="search" class="barra__icono"><i class="fa-solid fa-magnifying-glass"></i></label>
+                        <form action="" class="barra__form">
+                            <input type="search" class="barra__input" name="search" placeholder="Que deseas buscar?" required>
+                            <label for="search" class="barra__icono"><i class="fa-solid fa-magnifying-glass"></i></label>
+                            <button class="barra__btn" type="submit">Ir</button>
+                        </form>
                     </div>
                 </div>
                     <a href="/screens/admin-page.html" class="barra__link">Menu Administrador</a>
             </div>
         </section>
+        <section class="busqueda">
+            <i class="fas fa-xmark-square fa-2xl busqueda__salir"></i>
+            <span class="busqueda__titulo"></span>
+            <div class="busqueda__contenedor">
+                <span class="busqueda__error">No se encontraron resultados &#9785</span>
+            </div>
+        </section>
     </header>
     <main>
+
         <section class="agregar-productos">
             <form action="#" class="form">
                 <table class="tabla">

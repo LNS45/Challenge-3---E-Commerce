@@ -1,11 +1,13 @@
 import { validarFormulario } from "./form-controller.js";
 import { clientServices } from "../service/client-services.js";
+import { capturarCampo } from "./buscar-controller.js";
 
+capturarCampo();
 validarFormulario();
 
 function activarBoton(){
-    const btn = document.querySelector(".tabla__boton");
-    btn.addEventListener('submit', (e) => {
+    const form = document.querySelector(".form");
+    form.addEventListener('submit', (e) => {
         e.preventDefault();
         const campos = capturarCampos();
         clientServices.agregarProducto(campos[1], campos[2],campos[3],campos[4],campos[0]);

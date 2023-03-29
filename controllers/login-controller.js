@@ -1,7 +1,9 @@
 import { validarFormulario } from "./form-controller.js";
 import { clientServices } from "../service/client-services.js";
+import { capturarCampo } from "./buscar-controller.js";
 
 validarFormulario();
+capturarCampo();
 
 //Redireccion a la pagina del admin
 
