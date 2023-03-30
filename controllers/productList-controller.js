@@ -64,13 +64,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
     function crearNavCategorias(lista) {
 
         const contenido = 
-        `<a href="screens/categoria-producto.html?cat=${lista[0]}"class="nav__link">${lista[0]}</a>
-        <a href="screens/categoria-producto.html?cat=${lista[1]}" class="nav__link">${lista[1]}</a> 
-        <a href="screens/categoria-producto.html?cat=${lista[2]}" class="nav__link">${lista[2]}</a>
-        <a href="screens/categoria-producto.html?cat=${lista[3]}" class="nav__link">${lista[3]}</a>
-        <a href="screens/categoria-producto.html?cat=${lista[4]}" class="nav__link">${lista[4]}</a>
-        <a href="screens/categoria-producto.html?cat=${lista[5]}" class="nav__link">${lista[5]}</a>
-        <a href="screens/categoria-producto.html?cat=${lista[6]}" class="nav__link">${lista[6]}</a>`;
+        `<a href="./categoria-producto.html?cat=${lista[0]}"class="nav__link">${lista[0]}</a>
+        <a href="./categoria-producto.html?cat=${lista[1]}" class="nav__link">${lista[1]}</a> 
+        <a href="./categoria-producto.html?cat=${lista[2]}" class="nav__link">${lista[2]}</a>
+        <a href="./categoria-producto.html?cat=${lista[3]}" class="nav__link">${lista[3]}</a>
+        <a href="./categoria-producto.html?cat=${lista[4]}" class="nav__link">${lista[4]}</a>
+        <a href="./categoria-producto.html?cat=${lista[5]}" class="nav__link">${lista[5]}</a>
+        <a href="./categoria-producto.html?cat=${lista[6]}" class="nav__link">${lista[6]}</a>`;
         barraNav.innerHTML = contenido;
         return barraNav;
     }
