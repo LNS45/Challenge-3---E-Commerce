@@ -61,13 +61,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
             <ul class="producto__lista"></ul>`
         }
         else{
-            contenido = 
             `<div class="producto__grupoCategoria">
             <span  class="producto__categoria">${lista}</span>
             <a href="./screens/categoria-producto.html?cat=${lista}" class="producto__vermas">Ver más<i class="fas fa-arrow-right"></i></a>
             </div>
             <ul class="producto__lista"></ul>`
         }
+
         crearDiv.innerHTML = contenido;
         return crearDiv;
     }
