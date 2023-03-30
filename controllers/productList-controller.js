@@ -62,6 +62,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
     }
 
     function crearNavCategorias(lista) {
+
         const contenido = 
         `<a href="screens/categoria-producto.html?cat=${lista[0]}"class="nav__link">${lista[0]}</a>
         <a href="screens/categoria-producto.html?cat=${lista[1]}" class="nav__link">${lista[1]}</a> 
@@ -93,7 +94,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
+                <a href="screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "AdminPage"){
                 contenido =
                 `<a href="../screens/editar-producto.html?id=${id}" class="producto__linkEdit"><i class="fas fa-edit producto__iconEdit" data-edit></i></a>
@@ -101,13 +102,13 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
-                <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
+                <a href="screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "ProductoPage"){
                     contenido =
                     `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                     <span class="producto__nombre">${nombre}</span>
                     <span class="producto__precio">${precio}</span>
-                    <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
+                    <a href="screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }
             Contenedor.innerHTML = contenido;
 
