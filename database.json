@@ -5,7 +5,7 @@
       "precio": "$7,899.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "../assets/images/Guitarras/Fender Malibu.jpg",
+      "imagen": "assets/images/Guitarras/Fender Malibu.jpg",
       "id": "121"
     },
     {
@@ -13,7 +13,7 @@
       "precio": "$4,889.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "../assets/images/Guitarras/Gibson ES-335.jpg",
+      "imagen": "assets/images/Guitarras/Gibson ES-335.jpg",
       "id": "132"
     },
     {
@@ -21,7 +21,7 @@
       "precio": "$6,700.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "../assets/images/Guitarras/Fender Stratocaster.jpg",
+      "imagen": "assets/images/Guitarras/Fender Stratocaster.jpg",
       "id": "138"
     },
     {
@@ -29,7 +29,7 @@
       "precio": "$3,700.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "../assets/images/Guitarras/Epiphone 1958 Explorer.jpg",
+      "imagen": "assets/images/Guitarras/Epiphone 1958 Explorer.jpg",
       "id": "140"
     },
     {
@@ -37,7 +37,7 @@
       "precio": "$5,150.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Fender Precision.jpg",
+      "imagen": "assets/images/Bajos/Fender Precision.jpg",
       "id": "1901"
     },
     {
@@ -45,7 +45,7 @@
       "precio": "$6,550.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Ibanez SR300.jpg",
+      "imagen": "assets/images/Bajos/Ibanez SR300.jpg",
       "id": "213"
     },
     {
@@ -53,7 +53,7 @@
       "precio": "$11,360.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Fender Mustang .jpg",
+      "imagen": "assets/images/Bajos/Fender Mustang .jpg",
       "id": "3131"
     },
     {
@@ -61,7 +61,7 @@
       "precio": "$6,726.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Ibanez AEB5E Acoustic.jpg",
+      "imagen": "assets/images/Bajos/Ibanez AEB5E Acoustic.jpg",
       "id": "901"
     },
     {
@@ -69,7 +69,7 @@
       "precio": "$6,999.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Ibanez GSR 200.jpg",
+      "imagen": "assets/images/Bajos/Ibanez GSR 200.jpg",
       "id": "9031131"
     },
     {
@@ -286,7 +286,7 @@
       "precio": "$14,539.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Ibanez SR505ETVB.jpg"
+      "imagen": "assets/images/Bajos/Ibanez SR505ETVB.jpg"
     },
     {
       "id": "cdb0ce9f-a675-4b5c-a90b-ecabcd5c2bb9",
