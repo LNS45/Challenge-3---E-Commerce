@@ -108,7 +108,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                     `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
                     <span class="producto__nombre">${nombre}</span>
                     <span class="producto__precio">${precio}</span>
-                    <a href="/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
+                    <a href="../screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }
             Contenedor.innerHTML = contenido;
 
