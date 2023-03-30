@@ -319,6 +319,14 @@
       "descripcion": "negro",
       "categoria": "Bajos",
       "imagen": "assets/images"
+    },
+    {
+      "id": "ca567ac1-28f1-46e8-b515-4a9e6ec387a8",
+      "nombre": "Pancho",
+      "precio": "$2134",
+      "descripcion": "eeee",
+      "categoria": "Bajos",
+      "imagen": "/assets/images"
     }
   ],
   "categorias": [
