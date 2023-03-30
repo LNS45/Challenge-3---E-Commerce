@@ -327,6 +327,14 @@
       "descripcion": "eeee",
       "categoria": "Bajos",
       "imagen": "/assets/images"
+    },
+    {
+      "id": "827f4ed6-40e4-4be0-a347-668bc4c1df43",
+      "nombre": "Guitarra Example",
+      "precio": "$13313",
+      "descripcion": "alpkd",
+      "categoria": "Guitarras",
+      "imagen": "/assets/images"
     }
   ],
   "categorias": [

@@ -3,4 +3,4 @@ import { idCategoria } from "./productList-controller.js";
 //Retorna el id de la categoria de la URL
 const id = idCategoria();
 
-controlador("UserPage", id + 1, id, 30);
+controlador("CatPage", id + 1, id, 30);
