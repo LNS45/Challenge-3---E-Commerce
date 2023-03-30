@@ -1,6 +1,6 @@
 import { clientServices } from "../service/client-services.js";
-import { validarFormulario } from "./form-controller.js";
-import { capturarCampo } from "./buscar-controller.js";
+import { validarFormulario } from "form-controller.js";
+import { capturarCampo } from "buscar-controller.js";
 
 capturarCampo();
 validarFormulario();

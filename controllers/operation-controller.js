@@ -1,3 +1,3 @@
-import { capturarCampo } from "./buscar-controller.js";
+import { capturarCampo } from "buscar-controller.js";
 
 capturarCampo();

@@ -205,7 +205,7 @@
       "precio": "$1,949.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
-      "imagen": "../assets/images/Amplificadores/Fender Frontman 10G.jpg",
+      "imagen": "assets/images/Amplificadores/Fender Frontman 10G.jpg",
       "id": "1000"
     },
     {
@@ -213,7 +213,7 @@
       "precio": "$1,447.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
-      "imagen": "../assets/images/Amplificadores/Ibanez 60 TE.jpg",
+      "imagen": "assets/images/Amplificadores/Ibanez 60 TE.jpg",
       "id": "10494900"
     },
     {
@@ -253,7 +253,7 @@
       "precio": "$200",
       "descripcion": "Nickel",
       "categoria": "Cuerdas",
-      "imagen": "/assets/images/",
+      "imagen": "assets/images/",
       "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4"
     },
     {
@@ -261,7 +261,7 @@
       "precio": "$6,500.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Squier Affinity Series Jazzmaster HH.jpg",
+      "imagen": "assets/images/Guitarras/Squier Affinity Series Jazzmaster HH.jpg",
       "id": "e1155f3c-958f-4015-8b05-027fc3f0b94b"
     },
     {
@@ -269,7 +269,7 @@
       "precio": "$15,250.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/PRS SE Custom 24.jpg",
+      "imagen": "assets/images/Guitarras/PRS SE Custom 24.jpg",
       "id": "3d1f2ba9-1ce1-4e06-8ee2-0ec52118d743"
     },
     {
@@ -277,7 +277,7 @@
       "precio": "$5,789.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Guitarras",
-      "imagen": "/assets/images/Guitarras/Fender Telecaster.jpg",
+      "imagen": "assets/images/Guitarras/Fender Telecaster.jpg",
       "id": "532dee0d-10bf-454a-9017-9d7b8d1e84b2"
     },
     {
@@ -294,7 +294,7 @@
       "precio": "$5,593.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Bajos",
-      "imagen": "../assets/images/Bajos/Sterling Ray 34.jpg"
+      "imagen": "assets/images/Bajos/Sterling Ray 34.jpg"
     },
     {
       "id": "f02de6e3-bd28-4d6b-b8b9-bdcd744d43b2",
@@ -302,7 +302,7 @@
       "precio": "$23,635.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Amplificadores",
-      "imagen": "../assets/images/Amplificadores/Marshall JCM800.jpg"
+      "imagen": "assets/images/Amplificadores/Marshall JCM800.jpg"
     },
     {
       "id": "57776983-7ac2-485e-b26f-84362d7eb36e",
@@ -310,7 +310,7 @@
       "precio": "$13214",
       "descripcion": "Azules",
       "categoria": "Cuerdas",
-      "imagen": "/assets/images"
+      "imagen": "assets/images"
     },
     {
       "id": "28cefd40-6208-4e47-8a0e-cbc4601d90cf",
@@ -318,7 +318,7 @@
       "precio": "$099999",
       "descripcion": "negro",
       "categoria": "Bajos",
-      "imagen": "/assets/images"
+      "imagen": "assets/images"
     }
   ],
   "categorias": [
