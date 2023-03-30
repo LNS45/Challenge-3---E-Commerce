@@ -12,7 +12,7 @@ const mostrarCategorias = (URL, categorizar, cantidad, indice, crearNavCategoria
         .then((categorias) => {
             listadoCategorias = categorias;
             categorias.forEach((categoria) => {
-                if(pagina == "UserPage"){
+                if(pagina == "UserPage" || "CatPage"){
                     let links = crearNavCategorias(categoria.lista);
                     nav.appendChild(links);
                 }

@@ -60,7 +60,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
             </div>
             <ul class="producto__lista"></ul>`
         }
-        else{
+        else if(pagina == "UserPage"){
             contenido =
             `<div class="producto__grupoCategoria">
             <span  class="producto__categoria">${lista}</span>
