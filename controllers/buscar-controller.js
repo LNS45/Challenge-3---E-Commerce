@@ -16,18 +16,18 @@ export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
         const li = document.createElement("li");
         li.classList.add("producto__contenedor");
         let contenido = '';
-        if(!url.includes("screen")){
-            contenido =
-            `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
-            <span class="producto__nombre">${nombre}</span>
-            <span class="producto__precio">${precio}</span>
-            <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
-        }else if(url.includes("screen")){
+        if(url.includes("screen")){
             contenido =
             `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="../screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
+        }else{
+            contenido =
+            `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
+            <span class="producto__nombre">${nombre}</span>
+            <span class="producto__precio">${precio}</span>
+            <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
         }
         li.innerHTML = contenido;
         return li;
@@ -49,7 +49,7 @@ export function capturarCampo (){
         const error = document.querySelector(".busqueda__error");
         error.style.visibility = 'hidden'
         contenedor.removeChild(document.querySelector(".busqueda__lista"))
-        pagina.style.opacity = '100%'
+        pagina.stylefilter = 'blur(0px)'
     })
     form.addEventListener('submit', (e) => {
         e.preventDefault();
