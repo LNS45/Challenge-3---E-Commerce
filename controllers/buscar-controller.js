@@ -49,7 +49,7 @@ export function capturarCampo (){
         const error = document.querySelector(".busqueda__error");
         error.style.visibility = 'hidden'
         contenedor.removeChild(document.querySelector(".busqueda__lista"))
-        pagina.stylefilter = 'blur(0px)'
+        pagina.style.filter = 'blur(0px)'
     })
     form.addEventListener('submit', (e) => {
         e.preventDefault();
