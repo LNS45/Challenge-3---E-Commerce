@@ -115,7 +115,7 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
         let contenido = '';
             if(tipoPagina == "UserPage"){
                 contenido =
-                `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+                `<div class="producto__imagen"><img src="assets/${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
                 <a href="screens/vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
@@ -123,19 +123,19 @@ export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cant
                 contenido =
                 `<a href="./editar-producto.html?id=${id}" class="producto__linkEdit"><i class="fas fa-edit producto__iconEdit" data-edit></i></a>
                 <i class="fas fa-trash producto__iconTrash" data-trash id=${id}></i>
-                <div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+                <div class="producto__imagen"><img src="../assets/${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
                 <a href="./vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "ProductoPage"){
                     contenido =
-                    `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+                    `<div class="producto__imagen"><img src="../assets/${URLimagen}" alt="Producto" class="producto__imagen"></div>
                     <span class="producto__nombre">${nombre}</span>
                     <span class="producto__precio">${precio}</span>
                     <a href="./vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;
             }else if(tipoPagina == "CatPage"){
                 contenido =
-                `<div class="producto__imagen"><img src="${URLimagen}" alt="Producto" class="producto__imagen"></div>
+                `<div class="producto__imagen"><img src="../assets/${URLimagen}" alt="Producto" class="producto__imagen"></div>
                 <span class="producto__nombre">${nombre}</span>
                 <span class="producto__precio">${precio}</span>
                 <a href="./vista-producto.html?id=${id}&cat=${cat}" class="producto__descripcion">Ver producto</a>`;

@@ -18,13 +18,13 @@ export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
         let contenido = '';
         if(url.pathname.includes("screen")){
             contenido =
-            `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
+            `<div class="producto__imagen"><img src="../assets/${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="../screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
         }else{
             contenido =
-            `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
+            `<div class="producto__imagen"><img src="assets/${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
