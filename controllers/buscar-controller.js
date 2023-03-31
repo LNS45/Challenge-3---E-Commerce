@@ -2,7 +2,6 @@ import { clientServices } from "../service/client-services.js";
 
 export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
     const url = new URL(window.location);
-    const pagina = url.includes("screen");
     
     function filtrar(palabra, ul, nombre, categoria, precio,id, imagen){
         const minusNombre = nombre.toLowerCase();   
@@ -17,13 +16,13 @@ export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
         const li = document.createElement("li");
         li.classList.add("producto__contenedor");
         let contenido = '';
-        if(pagina != true){
+        if(!url.includes("screen")){
             contenido =
             `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
-        }else if(pagina == true){
+        }else if(url.includes("screen")){
             contenido =
             `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
