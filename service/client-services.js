@@ -89,7 +89,7 @@ const obtenerProductos = (URL,pagina,mostrarProductos, cantidadProductos) => {
 
 //Agregar Producto
 const agregarProducto = (categoria,nombre,precio,descripcion,imagen) => {
-    const URL =  "http://localhost:3000/productos";
+    const URL =  "https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/productos";
     let plantilla = {
         id: uuid.v4(),
         nombre: nombre,
@@ -113,7 +113,7 @@ const agregarProducto = (categoria,nombre,precio,descripcion,imagen) => {
 
 //Eliminar Productos
 const eliminarProducto = (id) => {
-    fetch(`http://localhost:3000/productos/${id}`,{
+    fetch(`https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/productos/${id}`,{
         method: "DELETE",
     })
     .then(() => {
@@ -133,7 +133,7 @@ const editarProducto = (id,nombre,precio,descripcion,categoria,imagen) => {
         categoria: categoria,
         imagen: imagen
     };
-    fetch(`http://localhost:3000/productos/${id}`,{
+    fetch(`https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/productos/${id}`,{
         method: "PUT",
         headers: {
             "content-type": "application/json"
@@ -147,12 +147,12 @@ const editarProducto = (id,nombre,precio,descripcion,categoria,imagen) => {
 }
 //Recupera datos por id
 const detalleProducto = (id) => {
-    return fetch(`http://localhost:3000/productos/${id}`).then(respuesta => respuesta.json());
+    return fetch(`https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/productos/${id}`).then(respuesta => respuesta.json());
 };
 
 //Recuperar info de Cuentas
 const infoCuenta = (usuario, contra, error) => {
-    fetch('http://localhost:3000/cuentas')
+    fetch('https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/cuentas')
     .then(response => response.json())
     .then((cuentas) => {
         cuentas.forEach(cuenta => {
@@ -170,7 +170,7 @@ const infoCuenta = (usuario, contra, error) => {
     });
 }
 const busquedaProductos = (busqueda, lista) => {
-    fetch("http://localhost:3000/productos")
+    fetch("https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne/productos")
         .then((response) => response.json())
         .then((productos) =>{
             productos.forEach(producto => {

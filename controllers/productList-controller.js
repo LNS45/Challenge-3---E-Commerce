@@ -41,7 +41,7 @@ function mostrarProducto(img,nombre,precio,descripcion, id){
 
 //Se llama desde Client Services muestra todo el contenido de productos y categorias dependiendo el tipo de pagina
 export const mostrarTodosLosProductos = (pagina, cantidadSecciones, indice, cantidadProductos) =>{
-    const URL =  "http://localhost:3000";
+    const URL =  "https://my-json-server.typicode.com/LNS45/API-Ecommerce-Challenge3-OracleOne";
     let barraNav = document.createElement("div")
     barraNav.classList.add("nav__contenedor");
 

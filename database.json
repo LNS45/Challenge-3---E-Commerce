@@ -73,134 +73,6 @@
       "id": "9031131"
     },
     {
-      "id": "1241",
-      "nombre": "Pedal Chorus",
-      "precio": "$900",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Pedales",
-      "imagen": ""
-    },
-    {
-      "id": "121341",
-      "nombre": "Pedal Chorus",
-      "precio": "$900",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Pedales",
-      "imagen": ""
-    },
-    {
-      "id": "19990241",
-      "nombre": "Pedal Chorus",
-      "precio": "$900",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Pedales",
-      "imagen": ""
-    },
-    {
-      "id": "12221",
-      "nombre": "Pedal Distortion",
-      "precio": "$1900",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Pedales",
-      "imagen": ""
-    },
-    {
-      "id": "120910221",
-      "nombre": "Pedal Distortion",
-      "precio": "$1900",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Pedales",
-      "imagen": ""
-    },
-    {
-      "id": "3121",
-      "nombre": "Paquete de puas | 24 piezas",
-      "precio": "$500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Púas",
-      "imagen": ""
-    },
-    {
-      "id": "312109091",
-      "nombre": "Paquete de puas | 24 piezas",
-      "precio": "$500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Púas",
-      "imagen": ""
-    },
-    {
-      "id": "3121341",
-      "nombre": "Paquete de puas | 24 piezas",
-      "precio": "$500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Púas",
-      "imagen": ""
-    },
-    {
-      "id": "12901",
-      "nombre": "Pua con diseno",
-      "precio": "$90",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Púas",
-      "imagen": ""
-    },
-    {
-      "id": "133312901",
-      "nombre": "Pua con diseno",
-      "precio": "$90",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Púas",
-      "imagen": ""
-    },
-    {
-      "id": "177621",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "1776913921",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "17909107621",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "1772141621",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "17769302921",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
-      "id": "1388377621",
-      "nombre": "Afinador electronico",
-      "precio": "$1500",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Accesorios",
-      "imagen": ""
-    },
-    {
       "nombre": "Fender Frontman 10G",
       "precio": "$1,949.00",
       "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
@@ -215,46 +87,6 @@
       "categoria": "Amplificadores",
       "imagen": "assets/images/Amplificadores/Ibanez 60 TE.jpg",
       "id": "10494900"
-    },
-    {
-      "id": "897",
-      "nombre": "Paquete de 12 Cuerdas",
-      "precio": "$1000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Cuerdas",
-      "imagen": ""
-    },
-    {
-      "id": "89431417",
-      "nombre": "Paquete de 12 Cuerdas",
-      "precio": "$1000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Cuerdas",
-      "imagen": ""
-    },
-    {
-      "id": "8214597",
-      "nombre": "Paquete de 12 Cuerdas",
-      "precio": "$1000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Cuerdas",
-      "imagen": ""
-    },
-    {
-      "id": "8943217",
-      "nombre": "Paquete de 12 Cuerdas",
-      "precio": "$1000",
-      "descripcion": "Guitarra acustica",
-      "categoria": "Cuerdas",
-      "imagen": ""
-    },
-    {
-      "nombre": "Cuerdas mamalonas",
-      "precio": "$200",
-      "descripcion": "Nickel",
-      "categoria": "Cuerdas",
-      "imagen": "assets/images/",
-      "id": "5538238e-496a-4d0e-a4d9-5b96aee2a0b4"
     },
     {
       "nombre": "Squier Affinity Series",
@@ -305,36 +137,268 @@
       "imagen": "assets/images/Amplificadores/Marshall JCM800.jpg"
     },
     {
-      "id": "57776983-7ac2-485e-b26f-84362d7eb36e",
-      "nombre": "Pancho",
-      "precio": "$13214",
-      "descripcion": "Azules",
+      "id": "c625dc11-ab4f-46c1-b130-c182edd5bcec",
+      "nombre": "JHS Pedals 3 Series Chorus",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Pedales",
+      "imagen": "assets/images/Pedales/JHSeries.jpg"
+    },
+    {
+      "id": "19f3e272-24ea-4940-a350-70adbb281586",
+      "nombre": "Pedalera de madera",
+      "precio": "$130.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Pedales",
+      "imagen": "assets/images/Pedales/Pedalera.jpg"
+    },
+    {
+      "id": "8df62693-72b3-40e4-b354-ec4299ec5e3f",
+      "nombre": "Dunlop MXR Custom Badass '78 Distortion ",
+      "precio": "$3,316.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Pedales",
+      "imagen": "assets/images/Pedales/Badass.jpg"
+    },
+    {
+      "id": "2a939b0f-6365-48c3-9b9c-f4c814d7b726",
+      "nombre": "Ibanez TS808 Tube Screamer Overdrive Pro",
+      "precio": "$2645.99",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Pedales",
+      "imagen": "assets/images/Pedales/TubeScreamer.jpg"
+    },
+    {
+      "id": "bfeb7263-60e8-4919-b476-a7a5a1a3e58a",
+      "nombre": "BOSS DS-1 Distortion ",
+      "precio": "$1,479.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Pedales",
+      "imagen": "assets/images/Pedales/BossDS.jpg"
+    },
+    {
+      "id": "c3d335c6-1685-468d-b130-a1cea7c72805",
+      "nombre": "Correa Cafe con Cruz",
+      "precio": "$450.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Correa Cafe con Cruz .jpg"
+    },
+    {
+      "id": "48ebed2e-f3cc-4dc6-85c9-def864406d9d",
+      "nombre": "Correa Tematica Marvel",
+      "precio": "$300.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Correa Tematica Marvel.jpg"
+    },
+    {
+      "id": "af02be9a-1ed8-4bdf-8d27-e17fd42a3e8a",
+      "nombre": "Correa de balas",
+      "precio": "$599.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Correa de balas.jpg"
+    },
+    {
+      "id": "1ccb78c0-067c-49d4-a5f8-46cd3c89661d",
+      "nombre": "Correa BestSound Blanco y Negro",
+      "precio": "$800.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Selecciona",
+      "imagen": "assets/images/Accesorios/Correa BestSound Blanco y Negro.jpg"
+    },
+    {
+      "id": "df23ea19-07df-4e77-974d-01c8d3d956ac",
+      "nombre": "Capo Traste Fender",
+      "precio": "$200.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Fender.png"
+    },
+    {
+      "id": "e0538007-eb28-4bf6-af6c-61c1f643a633",
+      "nombre": "Capo Traste Rojo",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Kala Rojo.png"
+    },
+    {
+      "id": "1b812064-ae1c-42dd-8964-0df5b65c29d7",
+      "nombre": "Capo Traste Blanco",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Blanco.png"
+    },
+    {
+      "id": "13db5da0-a1b6-4f76-97ff-f56c21042e0b",
+      "nombre": "Capo Traste Negro",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Negro.png"
+    },
+    {
+      "id": "0beade69-861e-4a00-b6b2-6e07718b42f2",
+      "nombre": "Capo Traste y Afinador",
+      "precio": "$500.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste y Afinador.png"
+    },
+    {
+      "id": "56c9ba9b-0fbe-499b-8ae1-cc0dfac728ca",
+      "nombre": "Capo Traste Fender Negro",
+      "precio": "$300.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Fender Negro.png"
+    },
+    {
+      "id": "7eb4dc57-2e12-4c23-86d2-b3a299c515b8",
+      "nombre": "Capo Traste Café ",
+      "precio": "$150.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Capo Traste Earnie Ball Café.png"
+    },
+    {
+      "id": "8d45814a-b8ff-4233-8449-1f68310a69a6",
+      "nombre": "Correa Tom's Vintage",
+      "precio": "$600.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Accesorios",
+      "imagen": "assets/images/Accesorios/Correa Tom's Vintage.jpg"
+    },
+    {
+      "id": "fa794c46-9e48-41e3-a63c-2926b26cb83c",
+      "nombre": "Magma Nickel 0.40 - Bajo Electrico",
+      "precio": "$200.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
       "categoria": "Cuerdas",
-      "imagen": "assets/images"
+      "imagen": "assets/images/Cuerdas/Magma Nickel 0.40.png"
     },
     {
-      "id": "28cefd40-6208-4e47-8a0e-cbc4601d90cf",
-      "nombre": "Blabla",
-      "precio": "$099999",
-      "descripcion": "negro",
-      "categoria": "Bajos",
-      "imagen": "assets/images"
+      "id": "58150cf6-e06a-4c3f-90af-0559d302570a",
+      "nombre": "Cuerdas Neon - Bajo",
+      "precio": "$250.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/Cuerdas Neon.png"
     },
     {
-      "id": "ca567ac1-28f1-46e8-b515-4a9e6ec387a8",
-      "nombre": "Pancho",
-      "precio": "$2134",
-      "descripcion": "eeee",
-      "categoria": "Bajos",
-      "imagen": "/assets/images"
+      "id": "0fe2f639-6621-4957-ab54-245882de643e",
+      "nombre": "Earnie ball Nickel Orange - Guitarra",
+      "precio": "$389.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/Earnie ball Nickel Orange.png"
     },
     {
-      "id": "55a6dc5c-f11d-4bca-ba5b-0ef9a6fccbd9",
-      "nombre": "LMlsamd",
-      "precio": "$98912",
-      "descripcion": "Negro",
-      "categoria": "Amplificadores",
-      "imagen": "/assets/images/Guitarras/PRS SE Custom 24.jpg"
+      "id": "c7c3e0f2-3a24-40df-bd86-893f015cf512",
+      "nombre": "D'Addario Clasic Nylon - Guitarra clasica",
+      "precio": "$200.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/D'Addario Clasic Nylon.png"
+    },
+    {
+      "id": "2af111ed-658b-4874-9a6e-3ebab861c97c",
+      "nombre": "ProArte Nylon - Guitarra clasica",
+      "precio": "$240.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/ProArte Nylon.png"
+    },
+    {
+      "id": "6d4c4ea6-737c-4160-b12c-e86079a6376c",
+      "nombre": "Earthwood Bronze 12 Cuerdas - Docerola",
+      "precio": "$350.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/Earthwood Bronze 12 Cuerdas.png"
+    },
+    {
+      "id": "263f7e28-815b-4449-ae7a-10572352a570",
+      "nombre": "Earnie ball Nickel Yellow - Guitarra",
+      "precio": "$276.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Cuerdas",
+      "imagen": "assets/images/Cuerdas/Earnie ball Nickel Yellow.png"
+    },
+    {
+      "id": "267e0b26-350c-4cfa-a6c4-7a2aaaaba7c7",
+      "nombre": "Rombo Prisma 0.8mm Black",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboPrisma.jpg"
+    },
+    {
+      "id": "aa0aedde-aca6-49c6-8421-c11545ae62f3",
+      "nombre": "Rombo Diamond 2mm Yellow",
+      "precio": "$110.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboDiamondYellow.jpg"
+    },
+    {
+      "id": "5211165b-58a3-4c7a-babf-8d33f00ce71c",
+      "nombre": "Rombo Diamond 2mm Black",
+      "precio": "$110.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboDiamond.jpg"
+    },
+    {
+      "id": "7026f818-48fb-411a-af80-3622ba332ef3",
+      "nombre": "Rombo Horizon 1.4mm Black",
+      "precio": "$100.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboHorizon.jpg"
+    },
+    {
+      "id": "9a1fb570-b52c-4315-971a-e12334da92de",
+      "nombre": "Rombo Waves 1.25mm Black",
+      "precio": "$120.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboWaves.jpg"
+    },
+    {
+      "id": "d00147ef-e659-47bc-a214-8df707fec349",
+      "nombre": "Rombo Classic 0.45mm",
+      "precio": "$99.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/RomboClassic.jpg"
+    },
+    {
+      "id": "ae252fad-cb44-4cfc-ba15-6f77d6dce2c7",
+      "nombre": "Paquete mix Rombo Black",
+      "precio": "$250.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/PaqueteMix.jpg"
+    },
+    {
+      "id": "24a43f73-21b3-4f98-92dd-fe9b5db84e81",
+      "nombre": "Portapúas Negro",
+      "precio": "$80.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/Portapuas.jpg"
+    },
+    {
+      "id": "40a1507a-4f54-4a47-b491-aa016b18278d",
+      "nombre": "DUNLOP U.S.A 2mm",
+      "precio": "$20.00",
+      "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus tellus quis mi tincidunt, non scelerisque eros finibus. Quisque cursus imperdiet nibh id porttitor.",
+      "categoria": "Púas",
+      "imagen": "assets/images/Puas/Púa dura.jpg"
     }
   ],
   "categorias": [
