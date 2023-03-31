@@ -18,7 +18,7 @@ export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
             `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
-            <a href="../screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
+            <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
         li.innerHTML = contenido;
         return li;
     }
