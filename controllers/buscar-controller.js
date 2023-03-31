@@ -1,6 +1,8 @@
 import { clientServices } from "../service/client-services.js";
 
 export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
+    const url = new URL(window.location);
+    const pagina = url.includes("index");
     
     function filtrar(palabra, ul, nombre, categoria, precio,id, imagen){
         const minusNombre = nombre.toLowerCase();   
@@ -14,11 +16,20 @@ export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
     function crearLista(imagen,nombre,precio,id,categoria){
         const li = document.createElement("li");
         li.classList.add("producto__contenedor");
-        const contenido =
+        let contenido = '';
+        if(pagina == true){
+            contenido =
             `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
             <span class="producto__nombre">${nombre}</span>
             <span class="producto__precio">${precio}</span>
             <a href="screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
+        }else{
+            contenido =
+            `<div class="producto__imagen"><img src="${imagen}" alt="Producto" class="producto__imagen"></div>
+            <span class="producto__nombre">${nombre}</span>
+            <span class="producto__precio">${precio}</span>
+            <a href="../screens/vista-producto.html?id=${id}&cat=${categoria}" class="producto__descripcion">Ver producto</a>`;
+        }
         li.innerHTML = contenido;
         return li;
     }
@@ -55,6 +66,6 @@ export function capturarCampo (){
         pantalla.style.visibility = 'visible';
         //console.log(palabra.includes("dinero"))
         clientServices.busquedaProductos(busqueda, ul)
-        pagina.style.opacity = '40%'
+        pagina.style.filter = 'blur(3px)'
     });
 };

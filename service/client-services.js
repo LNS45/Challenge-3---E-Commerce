@@ -5,6 +5,7 @@ import { buscar } from "../controllers/buscar-controller.js";
 let listadoCategorias;
 //Logica para crear Secciones de categorias
 const mostrarCategorias = (URL, categorizar, cantidad, indice, crearNavCategorias,pagina) => {
+    
     const Seccion = document.querySelector(".productos");
     const nav = document.querySelector(".nav");
     fetch(`${URL}/categorias`)
