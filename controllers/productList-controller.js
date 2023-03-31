@@ -30,7 +30,7 @@ function obtenerProducto(){
 function mostrarProducto(img,nombre,precio,descripcion, id){
     const div = document.querySelector(".vista__grupo");
     const contenido = 
-    `<img src="${img}" alt="" class="vista__imagen">
+    `<img src="../assets/${img}" alt="" class="vista__imagen">
     <div class="vista__info">
         <h1 class="vista__nombre">${nombre}</h1>
         <span class="vista__precio">${precio}</span>
