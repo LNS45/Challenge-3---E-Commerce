@@ -2,7 +2,6 @@ import { clientServices } from "../service/client-services.js";
 
 export function buscar(imagen,nombre,precio,categoria,id, palabra, lista){
     const url = new URL(window.location);
-    console.log(url.pathname);
     
     function filtrar(palabra, ul, nombre, categoria, precio,id, imagen){
         const minusNombre = nombre.toLowerCase();   
