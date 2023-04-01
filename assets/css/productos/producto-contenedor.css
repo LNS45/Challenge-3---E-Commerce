@@ -1,12 +1,12 @@
 .producto__contenedor{
     display: flex;
     flex-direction: column;
-    width: 200px;
-    height: 320px;
+    width: 12.5rem;
+    height: 20rem;
     background-color: var(--blanco);
-    border-radius: 20px;
-    padding: 15px 15px;
-    margin-top: 20px;
+    border-radius: 1.25rem;
+    padding: .9375rem .9375rem;
+    margin-top: 1.25rem;
     position: relative;
     margin-left: .3125rem;
 

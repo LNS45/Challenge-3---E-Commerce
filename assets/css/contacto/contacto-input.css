@@ -10,22 +10,22 @@
 }
 .contacto__input~label{
     position: absolute;
-    left: 8px;
-    top: 45px;
+    left: .5rem;
+    top: 2.8125rem;
     transition: .4s ease-in-out ;
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: 600;
 }
 .contacto__input:focus~label{
     position: absolute;
-    left: 8px;
-    top: 30px;
+    left: .5rem;
+    top: 1.875rem;
 }
 .contacto__input:valid~label{
     color: #0EC6A4;
-    left: 8px;
-    top: 30px;
+    left: .5rem;
+    top: 1.875rem;
 }
 .contacto__input::placeholder{
-    font-size: 12px;
+    font-size: .75rem;
 }

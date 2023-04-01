@@ -1,7 +1,7 @@
 .producto__iconEdit{
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 1.25rem;
+    right: 2.8125rem;
     transition: .3s ease-in-out;
     cursor: pointer;
 }
