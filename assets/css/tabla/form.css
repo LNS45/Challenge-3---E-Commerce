@@ -4,3 +4,27 @@
     align-items: center;
     font-size: 16px;
 }
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    .form{
+        font-size: 15px;
+    }
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+    .form{
+        font-size: 16px;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .form{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .form{
+        font-size: 6.5px;
+        width: 100%;
+    }
+}

@@ -3,3 +3,8 @@
     border-spacing: 6.25em 3.125em;
 
 }
+@media screen and (max-width: 500px) {
+    .tabla__fila{
+        font-size: 12px;
+    }
+}

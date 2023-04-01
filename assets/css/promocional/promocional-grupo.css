@@ -1,0 +1,15 @@
+.promocional__grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1.875rem;
+    width: 12.5rem;
+    font-size: 4px;
+}
+@media screen and (max-width: 500px) {
+    .promocional__grupo{
+        margin-left: 0;
+        font-size: 4px;
+        height: 100px;
+    }
+}

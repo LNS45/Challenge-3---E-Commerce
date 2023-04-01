@@ -14,3 +14,8 @@
 .tabla__boton:active{
     transform: scale3d(0.95, 0.95, 1);
 }
+@media screen and (max-width: 500px) {
+    .tabla__boton{
+        margin-top: 20px;
+    }
+}

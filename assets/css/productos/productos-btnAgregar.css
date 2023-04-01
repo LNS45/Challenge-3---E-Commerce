@@ -20,3 +20,9 @@
 .productos__btnAgregar:active{
     transform: scale3d(0.95, 0.95, 1);
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .productos__btnAgregar{
+        width: 120px;
+    }
+}

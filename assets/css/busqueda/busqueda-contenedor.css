@@ -11,3 +11,16 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .busqueda__contenedor{
+        height: 450px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .busqueda__contenedor{
+        width: 95%;
+        height: 300px;
+        align-items: center;
+    }
+}

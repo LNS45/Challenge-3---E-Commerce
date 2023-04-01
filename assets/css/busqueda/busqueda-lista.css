@@ -4,3 +4,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+@media screen and (max-width: 500px) {
+    .busqueda__lista{
+        width: 150px;
+    }
+}

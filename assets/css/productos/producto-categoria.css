@@ -4,3 +4,14 @@
     font-size: 1.25em;
     text-decoration: none;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .producto__categoria{
+        margin-left: 100px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .producto__categoria{
+        margin-left: 10px;
+    }
+}

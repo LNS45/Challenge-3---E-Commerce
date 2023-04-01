@@ -1,11 +1,8 @@
 .promocional__titulo{
-    position: absolute;
-    width: 15em;
-    top: 2.2em;
-    left: 1.4em;
+    width: 11.2em;
     font-family: Rasa;
     font-weight: 700;
-    font-size: 4.375em;
+    font-size: 5.38em;
     color: var(--fuente-clara);
     text-shadow: var(--texto-sombreado);
 };

@@ -1,10 +1,14 @@
 .promocional__subtitulo{
-    position: absolute;
-    top: 8em;
-    left: 2.5em;
+    width: 13em;
     font-family: Rasa;
     font-weight: 700;
     font-size: 2.5em;
     color: var(--fuente-clara);
     text-shadow: var(--texto-sombreado);
+    margin-top: 20px;
+}
+@media screen and (max-width: 500px) {
+    .promocional__subtitulo{
+        font-size: 15px;
+    }
 }

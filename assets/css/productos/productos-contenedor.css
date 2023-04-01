@@ -3,3 +3,12 @@
     width: 58.75em;
     height: auto;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .productos__contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

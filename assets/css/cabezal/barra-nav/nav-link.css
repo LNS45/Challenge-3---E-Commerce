@@ -9,3 +9,13 @@
     color: var(--fuente-azul);
     text-decoration: underline;
 }
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .nav__link{
+        margin-top: 5px;
+        background-color: var(--blanco);
+        width: 150px;
+        text-align: center;
+        box-shadow: var(--container-sombra);
+    }
+}

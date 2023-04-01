@@ -3,3 +3,9 @@
     left: .5em;
     top: .5em;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .barra__icono{
+        top: .99em;
+    }
+}

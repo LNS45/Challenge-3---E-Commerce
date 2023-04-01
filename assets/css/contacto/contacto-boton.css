@@ -16,3 +16,14 @@
 .contacto__boton:active{
     transform: scale3d(0.95, 0.95, 1);
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .contacto__boton{
+        top: 63em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contacto__boton{
+        width: 9em;
+    }
+}

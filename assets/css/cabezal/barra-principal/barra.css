@@ -16,3 +16,28 @@
     opacity: 95%;
     font-size: 16px;
 }
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    .barra{
+        font-size: 21px;
+    }
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+    .barra{
+        font-size: 16px;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .barra{
+        font-size: 10px;
+        height: 5.5rem;
+    }
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .barra{
+        font-size: 8px;
+    }
+}

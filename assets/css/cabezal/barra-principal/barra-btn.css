@@ -1,7 +1,22 @@
 .barra__btn{
     border-radius: 50%;
-    width: 2.1875em;
-    height: 2.1875em;
+    width: 2.1875rem;
+    height: 2.1875rem;
     cursor: pointer;
     font-weight: 700;
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .barra__btn{
+        width: 2em;
+        height: 2em;
+    }
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .barra__btn{
+        width: 20px;
+        height: 20px;
+        font-size: .5rem;
+    }
 }

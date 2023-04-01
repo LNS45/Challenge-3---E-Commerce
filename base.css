@@ -35,3 +35,22 @@ input:-webkit-autofill:hover,
 input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }
+
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    html{
+        font-size: ;
+    }
+}
