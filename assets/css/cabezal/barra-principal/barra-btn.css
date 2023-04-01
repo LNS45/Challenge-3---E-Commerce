@@ -1,7 +1,7 @@
 .barra__btn{
     border-radius: 50%;
-    width: 2.1875rem;
-    height: 2.1875rem;
+    width: 2.1875em;
+    height: 2.1875em;
     cursor: pointer;
     font-weight: 700;
 }

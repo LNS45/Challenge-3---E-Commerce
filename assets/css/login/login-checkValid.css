@@ -1,7 +1,7 @@
 .login__checkValid{
     position: absolute;
-    right: .5rem;
-    top: .8125rem;
+    right: .5em;
+    top: .8125em;
     color: #03be6d;
     visibility: hidden;
 }

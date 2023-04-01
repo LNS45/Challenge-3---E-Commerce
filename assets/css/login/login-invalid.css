@@ -1,11 +1,11 @@
 .login__invalid{
     position: absolute;
-    left: 0rem;
-    top: 3.125rem;
+    left: 0em;
+    top: 4.125em;
     color:white;
-    font-size: .75rem;
-    padding: .3125rem;
-    border-radius: .625rem;
+    font-size: .75em;
+    padding: .3125em;
+    border-radius: .625em;
     background-color: red;
     text-shadow: var(--texto-sombreado-light);
     visibility: hidden;

@@ -1,6 +1,6 @@
 .producto__imagen{
-    width: 12.5rem;
-    height: 13.75rem;
+    width: 12.5em;
+    height: 13.75em;
     background-color: var(--gris);
     border-radius: 10px;
 }

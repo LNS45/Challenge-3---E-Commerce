@@ -1,12 +1,12 @@
 .tabla__boton{
     width: 100%;
-    height: 3.125rem;
+    height: 3.125em;
     border-radius: 10px;
     background-color: var(--cafe-vino);
     color: var(--fuente-clara);
     border: none;
     outline: none;
-    font-size: 1.125rem;
+    font-size: 1.125em;
     box-shadow: var(--container-sombra);
     cursor: pointer;
     transition: .1s ease-in-out;

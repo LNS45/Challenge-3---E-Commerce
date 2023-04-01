@@ -1,16 +1,16 @@
 .producto__vermas{
-    width: 6.25rem;
+    width: 6.25em;
     display: flex;
     color: var(--fuente-azul);
     font-weight: 700;
     text-decoration: none;
     align-self: flex-end;
     transition: .3s ease-in-out;
-    font-size: 1.25rem;
-    padding: .125rem .1875rem;
+    font-size: 1.25em;
+    padding: .125em .1875em;
 }
 .producto__vermas:hover{
     background: var(--fuente-azul);
-    border-radius: .3125rem;
+    border-radius: .3125em;
     color: var(--blanco);
 }

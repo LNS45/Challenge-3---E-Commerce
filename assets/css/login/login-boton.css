@@ -1,15 +1,16 @@
 .login__boton{
     position: absolute;
-    left: 10rem;
-    top: 25rem;
-    width: 6.25rem;
-    height: 1.875rem;
-    font-size: 1.25rem;
+    left: 7em;
+    top: 20em;
+    width: 6.25em;
+    height: 1.875em;
+    font-size: 1.25em;
     transition: .1s ease-in-out;
     box-shadow: var(--container-sombra);
     background-color: #E2D9DB;
     border: none;
-    border-radius: .625rem;
+    border-radius: .625em;
+    cursor: pointer;
 }
 
 .login__boton:hover{

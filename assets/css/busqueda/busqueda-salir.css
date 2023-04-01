@@ -1,7 +1,7 @@
 .busqueda__salir{
     position: absolute;
-    right: .625rem;
-    top: 1.25rem;
+    right: .2em;
+    top: .7em;
     cursor: pointer;
     transition: .3s ease-in-out;
 }

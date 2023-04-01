@@ -1,11 +1,11 @@
 .login__invalidSubmit{
     position: absolute;
     font-weight: 700;
-    top: 6.25rem;
+    top: 6.25em;
     background-color: red;
     color: var(--blanco);
-    padding: .3125rem;
-    border-radius: .625rem;
+    padding: .3125em;
+    border-radius: .625em;
     visibility: hidden;
 }
 .login__invalidSubmit--active{

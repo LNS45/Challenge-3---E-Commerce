@@ -3,28 +3,28 @@
     border: none;
     font-family: var(--raleway);
     border-bottom: 2px solid var(--gris-rosado);
-    width: 18.75rem;
-    height: 9.375rem;
-    padding: .625rem .625rem;
-    margin-top: 2.5rem;
-    font-size: .9375rem;
+    width: 20em;
+    height: 9.375em;
+    padding: .625em .625em;
+    margin-top: 2.5em;
+    font-size: .9375em;
     resize: none;
 }
 .contacto__mensaje~label{
     position: absolute;
-    left: .5rem;
-    top: 3.25rem;
+    left: .5em;
+    top: 3.25em;
     transition: .5s ease-in-out ;
-    font-size: .9375rem;
+    font-size: .9375em;
     font-weight: 600;
 }
 .contacto__mensaje:focus~label{
     position: absolute;
-    left: .5rem;
-    top: 1.375rem;
+    left: .5em;
+    top: 2em;
 }
 .contacto__mensaje:valid~label{
     color: #0EC6A4;
-    left: .5rem;
-    top: 1.375rem;
+    left: .5em;
+    top: 2em;
 }

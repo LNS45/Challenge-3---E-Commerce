@@ -1,14 +1,14 @@
 .producto__contenedor{
     display: flex;
     flex-direction: column;
-    width: 12.5rem;
-    height: 20rem;
+    width: 12.5em;
+    height: 20em;
     background-color: var(--blanco);
-    border-radius: 1.25rem;
-    padding: .9375rem .9375rem;
-    margin-top: 1.25rem;
+    border-radius: 1.25em;
+    padding: .9375em .9375em;
+    margin-top: 1.25em;
     position: relative;
-    margin-left: .3125rem;
+    margin-left: .3125em;
 
 }
 .producto__contenedor--inactive{

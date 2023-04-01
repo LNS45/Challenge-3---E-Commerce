@@ -2,10 +2,10 @@
     position: absolute;
     color: red;
     font-weight: 600;
-    top: 4.25rem;
-    left: 1.25rem;
+    top: 5.25em;
+    left: 1.25em;
     visibility: hidden;
-    font-size: .75rem;
+    font-size: .75em;
 }
 .tabla__invalid--active{
     visibility: visible;

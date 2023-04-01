@@ -1,19 +1,19 @@
 .contacto__invalid{
     color: red;
     font-weight: 600;
-    font-size: .8125rem;
+    font-size: .8125em;
     position: absolute;
-    left: .625rem;
-    top: 5.625rem;
+    left: .625em;
+    top: 6.625em;
     display: none;
 }
 .contacto__invalid-mensaje{
     color: red;
     font-weight: 600;
-    font-size: .8125rem;
+    font-size: .8125em;
     position: absolute;
-    left: .625rem;
-    top: 13.4375rem;
+    left: .625em;
+    top: 17em;
     display: none;
 }
 .contacto__invalid--active{

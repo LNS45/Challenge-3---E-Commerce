@@ -1,11 +1,12 @@
 .productos__btnAgregar{
-    margin-bottom: 1.25rem;
-    height: 1.875rem;
+    margin-bottom: 1.25em;
+    height: 1.875em;
     border: none;
-    border-radius: 1.25rem;
+    border-radius: 1.25em;
     font-weight: 700;
     cursor: pointer;
-    width: 9.375rem;
+    width: 9.375em;
+    font-size: 1em;
     box-shadow: var(--container-sombra);
     transition: .1s ease-in-out;
 }

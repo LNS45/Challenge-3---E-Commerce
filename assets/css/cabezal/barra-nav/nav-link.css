@@ -2,7 +2,7 @@
     text-decoration: none;
     color: var(--negra);
     font-weight: 700;
-    font-size: 1.25rem;
+    font-size: 1.25em;
     transition: .1s ease-in-out;
 }
 .nav__link:hover{

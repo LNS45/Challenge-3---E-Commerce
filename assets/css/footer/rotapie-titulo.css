@@ -1,4 +1,5 @@
 .rotapie__titulo{
     color: var(--fuente-clara);
     text-shadow: var(--texto-sombreado);
+    font-size: 1em;
 }

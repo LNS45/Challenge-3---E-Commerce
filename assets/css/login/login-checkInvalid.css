@@ -1,9 +1,9 @@
 .login__checkInvalid{
         position: absolute;
-        right: .5rem;
-        top: .8125rem;
+        right: .5em;
+        top: .8125em;
         color: red;
-        visibility: hidden
+        visibility: hidden;
 };
 .login__checkInvalid--active{
         visibility: visible;

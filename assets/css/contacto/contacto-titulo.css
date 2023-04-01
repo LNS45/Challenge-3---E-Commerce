@@ -1,6 +1,6 @@
 .contacto__titulo{
     position: relative;
-    font-size: 2.5rem;
+    font-size: 2.5em;
     text-align: center;
     width: 100%;
     border-bottom: 2px groove var(--gris);

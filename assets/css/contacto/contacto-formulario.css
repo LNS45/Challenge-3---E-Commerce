@@ -1,8 +1,8 @@
 .contacto__formulario{
-    border: .3125rem solid var(--gris-rosado);
+    border: .3125em solid var(--gris-rosado);
     box-sizing: border-box;
-    border-radius: 1.25rem;
-    height: 34.375rem;
+    border-radius: 1.25em;
+    height: 34.375em;
     box-shadow: rgba(0, 0, 0, 0.35) 0rem 5px 15px;
     background-color: var(--blanco);
 }

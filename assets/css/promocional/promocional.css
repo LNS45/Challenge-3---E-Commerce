@@ -8,6 +8,7 @@
     position: relative;
     filter:grayscale(25%);
     filter: brightness(110%);
+    font-size: 16px;
 }
 
 /*TV Responsive*/

@@ -1,11 +1,11 @@
 .login__contenedor{
     position: relative;
-    height: 31.25rem;
-    width: 25rem;
-    margin-top: 2.5rem;
-    border-radius: 1.875rem;
+    height: 31.25em;
+    width: 25em;
+    margin-top: 2.5em;
+    border-radius: 1.875em;
     box-sizing: border-box;
-    padding: 1.875rem 2rem;
+    padding: 1.875em 2em;
     box-shadow: rgba(133, 88, 97, 0.8) 5px 5px, rgba(133, 88, 97, 0.7) 10px 10px, rgba(133, 88, 97, 0.6) 15px 15px, rgba(133, 88, 97, 0.5) 20px 20px;
     border: 1px solid var(--cafe-vino);
     background-color: #5C3D43;

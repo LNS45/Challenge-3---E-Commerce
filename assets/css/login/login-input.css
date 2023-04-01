@@ -1,18 +1,18 @@
 .login__input{
     width: 100%;
     box-sizing: border-box;
-    height: 2.5rem;
-    border-radius: .625rem;
+    height: 2.5em;
+    border-radius: .625em;
     outline: none;
     border: none;
     background-color: #E2D9DB;
-    padding: 0px 1.875rem;
-    font-size: 1rem;
+    padding: 0px 1.875em;
+    font-size: 1em;
 }
 .login__input~label{
     position: absolute;
-    top: .6875rem;
-    left: .625rem;
+    top: .6875em;
+    left: .625em;
 }
 .login__input:invalid{
     border: 3px solid red;

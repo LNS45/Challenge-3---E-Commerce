@@ -1,7 +1,7 @@
 .contacto__checkValid{
     position: absolute;
-    left: 20.25rem;
-    top: 3.5rem;
+    left: 20.25em;
+    top: 3.5em;
     color: rgb(3, 190, 109);
     visibility: hidden;
 }

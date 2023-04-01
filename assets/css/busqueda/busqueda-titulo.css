@@ -1,6 +1,6 @@
 .busqueda__titulo{
     color: var(--blanco);
     font-weight: 700;
-    font-size: 1.5625rem;
-    margin-top: .625rem;
+    font-size: 1.5625em;
+    margin-top: .4em;
 }

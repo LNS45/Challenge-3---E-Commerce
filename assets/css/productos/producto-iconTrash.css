@@ -1,7 +1,7 @@
 .producto__iconTrash{
     position: absolute;
-    top: 1.25rem;
-    right: 1.5625rem;
+    top: 1.25em;
+    right: 1.5625em;
     transition: .3s ease-in-out;
     cursor: pointer;
 }

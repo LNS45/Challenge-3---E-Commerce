@@ -1,12 +1,13 @@
 .busqueda__contenedor{
-    border: .3125rem solid var(--cafe-vino);
-    width: 46.875rem;
-    height: 26.875rem;
+    border: .3125em solid var(--cafe-vino);
+    width: 46.875em;
+    height: 26.875em;
     position: absolute;
-    top: 2.5rem;
+    top: 2.5em;
     background-color: var(--gris-rosado);
-    border-radius: .3125rem;
+    border-radius: .3125em;
     overflow-y: scroll;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
