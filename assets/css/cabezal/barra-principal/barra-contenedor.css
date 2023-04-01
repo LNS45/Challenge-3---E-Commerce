@@ -4,3 +4,9 @@
     align-items: center;
     justify-content: space-between;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .barra__contenedor{
+        flex-direction: column;
+    }
+}

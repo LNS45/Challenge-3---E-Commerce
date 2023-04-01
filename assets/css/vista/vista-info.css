@@ -5,3 +5,14 @@
     flex-direction: column;
     padding: 1.25em;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .vista__info{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .vista__info{
+        font-size: 10px;
+    }
+}

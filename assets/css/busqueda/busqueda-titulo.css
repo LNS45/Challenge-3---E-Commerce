@@ -4,3 +4,8 @@
     font-size: 1.5625em;
     margin-top: .4em;
 }
+@media screen and (max-width: 500px) {
+    .busqueda__titulo{
+        font-size: 13px;
+    }
+}

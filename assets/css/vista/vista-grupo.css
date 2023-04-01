@@ -9,3 +9,18 @@
     width: 51.25em;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .vista__grupo{
+        margin-top: 20px;
+        flex-direction: column;
+        height: auto;
+        width: 32em;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .vista__grupo{
+        width: 250px;
+    }
+}

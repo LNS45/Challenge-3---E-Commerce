@@ -11,3 +11,32 @@
     background-size: cover;
     font-size: 16px;
 }
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    .contacto{
+        font-size: 21px;
+    }
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+    .contacto{
+        font-size: 16px;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .contacto{
+        font-size: 18px;
+    }
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .contacto{
+        font-size: 4px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contacto{
+        font-size: 9px;
+    }
+}

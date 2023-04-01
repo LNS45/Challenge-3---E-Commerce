@@ -3,3 +3,10 @@
     display: flex;
     justify-content: space-between;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .contacto__contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+}

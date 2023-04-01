@@ -1,5 +1,12 @@
 .producto__lista{
     margin-top: 1.875em;
+    width: 60em;
     display: flex;
     flex-wrap: wrap;
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .producto__lista{
+        width: 30em;
+    }
 }

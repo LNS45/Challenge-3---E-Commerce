@@ -11,3 +11,29 @@ background-size: cover;
     justify-content: center;
     font-size: 16px;
 }
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    .nav{
+        font-size: 21px;
+    }
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+    .nav{
+        font-size: 16px;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .nav{
+        font-size: 10px;
+    }
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .nav{
+        font-size: 12px;
+        height: auto;
+        padding: 13px 0 5px 0;
+    }
+}

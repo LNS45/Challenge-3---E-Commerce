@@ -10,3 +10,17 @@
     padding-right: .9375em;
     position: relative;
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .barra__input{
+        height: 3em;
+        width: 28em;
+    }
+}
+/*Mobile Responsive*/
+@media screen and (max-width: 500px) {
+    .barra__input{
+        height: 23px;
+        width: 170px;
+    }
+}

@@ -7,3 +7,26 @@
     justify-content: center;
     font-size: 16px;
 }
+/*TV Responsive*/
+@media screen and (max-width: 1920px) {
+    .vista{
+        font-size: 21px;
+    }
+}
+/*PC Responsive*/
+@media screen and (max-width: 1280px) {
+    .vista{
+        font-size: 16px;
+    }
+}
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .vista{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .vista{
+        font-size: 10px;
+    }
+}

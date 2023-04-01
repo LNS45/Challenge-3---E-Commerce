@@ -6,3 +6,17 @@
     border-bottom: 2px groove var(--gris);
 
 }
+/*Tablet Responsive*/
+@media screen and (max-width: 960px) {
+    .productos__contenedorTitulo{
+        width: 100%;
+        margin-top: 10em;
+        justify-content: space-around;
+    }
+}
+@media screen and (max-width: 500px) {
+    .productos__contenedorTitulo{
+        margin-top: 10em;
+        font-size: 10px;
+    }
+}
